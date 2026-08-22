@@ -1,0 +1,5 @@
+Author='ANoUserXD',
+
+t?0:b=c=d=0,h=t>>14,a=PI*t/64*2**(((A=[0,0,1,3,0,0,-2,-4][t>>16&7])+t%([0,0,2,0,4,2,2,4][t>>12&7]+2+2*!!(t>>18))*7)/12),b+=sin(sin(sin(a+sin(a*1.01+cos(a/1.02)))+a/2+8*cos(t/3e4))+a+sin(a)+sin(t/5e4)),b/=2,c+=b/4-c/3,d+=c/5-d/7,i=(1.1*d+4*sin(5e4/((e=t%8192)+1e3))*.9995**e*(B=!(t>>13&3+(h&1)^t>>15&1))*(g=t>262144)+sin(4e3/(f=t%4096))*.998**f*(C=!!(t>>12&5^t>>13&1+(h&3)))*g+2*sin((t/4|0)**3)*(D=h&1)*.9993**(t%16384)*g),
+
+(()=>{if(!(t%512)){throw [`\n. doing this for fun lmao`,l=`\n|-------------------------------------------|`,`\n| Author: ${Author==''?'Anonymous':Author}`,l,`\n| Visual Timing: ${['|','/','-','\\'][t>>12&3]}`,e=`\n|`,`${p=l.replace(/-/,'').replace(/-/,'')}\n| Pitch Channels. ${p} \n| Melody: ${A} ${e}`,l,`\n| Percussion. ${p} ${e} Kick: ${(s=g?B?'Boom!💥 ':'...':0)==0?'...':s} ${e} ${e} Hat: ${(R=g?C?'Tsk.':'...':0)==0?'...':R} ${e} ${e} Snare: ${(r=g?D:0)==1?'Bang❗️ ':r==0?'...':r}${e}`,l,`\n| Volume Bar.${p}${e} Volume: ${'#'.repeat(max(i,24))}\n|`,l].join('')}else{return i}})()

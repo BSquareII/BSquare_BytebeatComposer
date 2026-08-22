@@ -1,0 +1,38 @@
+tVanilla=t,
+t||(rvA=[]),rvI=0,
+mel=(x,s)=>(t*2**((parseInt(x[int(t>>s)%x.length],36)+12)/12))/2,
+$bar=t>>16,
+$Bbar=t>>19,
+$A=t==0,
+rv=(X,L,dry=0.5,wet=0.5,dry2=0,T=t,Q=false,F=x=>x)=>(
+	(t&&!(rvA[rvI]==undefined))||(
+		rvA.push(Array(L).fill(0))
+	),
+	//(()=>{throw rv})()
+	OUTPUT1=rvA[rvI][Q?int(T%L):t%L]=
+		F(rvA[rvI][Q?t%L:int(T%L)])*wet+
+		(X&255)*dry,
+	Q?OUTPUT1+X*dry2:rvA[rvI][t%L]+X*dry2
+),
+vocode=(pitch=3/4,n=1024,input,name='filter',T=tVanilla)=>{
+	t||(this[name]=Array(n).fill(0));
+	this[name]??=Array(n).fill(0);
+	this[name][floor(T)%n]=input;
+	return this[name][floor(T*pitch)%n];
+},R=t*10/(4+(t>>17)%16)*(1+(3&t>>15))>>(1&t>>14)&128,
+max(0,min(255,
+(
+	rv(t&128,4096,0.1,0.9,0.0,t*1.000,false,
+		x=>vocode(((t>>17&1?17:15)/12),4096,x,0)
+	)*2+
+	($bar>=16?rv(t&127,4096,0.1,0.9,0.0,t*1.000,false,
+		x=>vocode(((t>>17&1?17:15)/12),2048,x,1)
+	)-48:0)+
+	(
+		$Bbar?sin(8e3/((t&16383)|2))*128-64:0
+	)+
+	(
+		$bar>=12?(random()-0.5)*2e5/((t+8192)&16383):0
+	)
+/3)
+))

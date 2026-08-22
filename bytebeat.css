@@ -1,0 +1,983 @@
+/* ==[ Document ] ========================================================================================= */
+
+:root {
+	--button-hover-color: #c2dfff;
+	--canvas-border: linear-gradient(#575b61, #575b61) 1;
+	--canvas-button: linear-gradient(to bottom, #67789d, #181f33);
+	--canvas-button-color: #c5c8c6;
+	--canvas-button-hover: linear-gradient(to bottom, #92aeec, #181f33) !important;
+	--code-button: linear-gradient(to bottom, #626264, #2a2f35);
+	--code-button-hover: linear-gradient(to bottom, #5876ce, #202a41);
+	--control-button: linear-gradient(to bottom, #7c8086, #1e1f22);
+	--control-button-active: linear-gradient(to bottom, #505f84, #1c1e26);
+	--control-button-hover: linear-gradient(to bottom, #668cdd, #1d222e);
+	--control-corners: 6px;
+	--control-size: 30px;
+	--control-text: linear-gradient(to top, #3a445e, #181c26);
+	--control-text-hover: linear-gradient(to top, #556897, #182033);
+	--control-volume: linear-gradient(to bottom, #aeaeae, #484c55);
+	--control-volume-hover: linear-gradient(to bottom, #90a7d7, #3f4c71);
+	--editor: #1b1d20;
+	--focus: #614fdb;
+	--font-size: 10.5pt;
+	--library-header: linear-gradient(to bottom, #55595e, #252525);
+	--library-header-hover: linear-gradient(to bottom, #5b6ea0, #151b2b);
+	--library-header-hover-color: #94c7ff;
+	--link: #89c2ff;
+	--link-hover: #ed88fb !important;
+}
+
+html {
+	color-scheme: dark;
+	background-color: #000;
+	color: #c5c8c6;
+	font: var(--font-size) sans-serif;
+}
+
+html[data-theme="Blue"] {
+	--canvas-border: linear-gradient(#94beff, #94beff) 1;
+	--canvas-button: linear-gradient(to bottom, #4567b0, #121726);
+	--canvas-button-hover: linear-gradient(to bottom, #5082ee, #26335a) !important;
+	--code-button: linear-gradient(to bottom, #34436f, #1f2331);
+	--code-button-hover: linear-gradient(to bottom, #526bb4, #1b2135);
+	--control-button: linear-gradient(to bottom, #4567b0, #121726);
+	--control-button-active: linear-gradient(to bottom, #35486d, #0d151f);
+	--control-button-hover: linear-gradient(to bottom, #507ee2, #1e2949);
+	--control-text: linear-gradient(to top, #435583, #131929);
+	--control-text-hover: linear-gradient(to top, #5471b9, #1c2641);
+	--control-volume: linear-gradient(to bottom, #5077cc, #1a2238);
+	--control-volume-hover: linear-gradient(to bottom, #5183ee, #23315c);
+	--editor: #12151c;
+	--focus: #9782ff;
+	--library-header: linear-gradient(to bottom, #2c3e6a, #101420);
+	--library-header-hover: linear-gradient(to bottom, #405588, #192035);
+}
+
+html[data-theme="Cake"] {
+	--button-hover-color: #8af4ff;
+	--canvas-border: linear-gradient(#6afaff, #fb79ff) 1;
+	--canvas-button: linear-gradient(to bottom, #72ddee, #f40bba);
+	--canvas-button-color: #62135b;
+	--canvas-button-hover: linear-gradient(to bottom, #80eeff, #ff59d5) !important;
+	--code-button: linear-gradient(to top, #931a81, #18676a);
+	--code-button-hover: linear-gradient(to top, #b3239d, #259096);
+	--control-button: linear-gradient(to bottom, #d341af, #1d4246);
+	--control-button-active: linear-gradient(to bottom, #a53a8a, #0e1c1f);
+	--control-button-hover: linear-gradient(to bottom, #e749cd, #0b5e68);
+	--control-text: linear-gradient(to top, #972485, #257d81);
+	--control-text-hover: linear-gradient(to top, #b825a2, #1aabb3);
+	--control-volume: linear-gradient(to bottom, #e43fba, #1b4549);
+	--control-volume-hover: linear-gradient(to bottom, #f369d5, #1c8fa3);
+	--editor: #1e071c;
+	--focus: #56e6ff;
+	--library-header: linear-gradient(to bottom, #c0359d, #00353a);
+	--library-header-hover: linear-gradient(to bottom, #ee58c9, #004950);
+	--library-header-hover-color: #94fbff;
+	--link: #88eafb;
+	--link-hover: #ff89ed !important;
+}
+
+html[data-theme="Chasyxx"] {
+	--primary-bright: #458749;
+	--primary-medium: #2b542d;
+	--primary-dark: #112212;
+
+	--secondary-bright: #577b51;
+	--secondary-medium: #364d32;
+	--secondary-dark: #161f14;
+
+	--accent-bright: #5bd7ae;
+	--accent-medium: #23906b;
+	--accent-dark: #14523d;
+
+	--button-hover-color: #badbff;
+	--canvas-border: linear-gradient(to bottom, var(--accent-bright), var(--accent-medium)) 1;
+	--canvas-button: linear-gradient(to bottom, var(--secondary-medium), var(--secondary-dark));
+	--canvas-button-color: #c5c8c6;
+	--canvas-button-hover: linear-gradient(to bottom, var(--secondary-bright), var(--secondary-medium)) !important;
+	--code-button: linear-gradient(to bottom, var(--secondary-medium), var(--secondary-dark));
+	--code-button-hover: linear-gradient(to bottom, var(--secondary-bright), var(--secondary-medium));
+	--control-button: linear-gradient(to bottom, var(--primary-medium), var(--primary-dark));
+	--control-button-active: linear-gradient(to bottom, var(--accent-bright), var(--accent-medium));
+	--control-button-hover: linear-gradient(to bottom, var(--primary-bright), var(--primary-medium));
+	--control-text: linear-gradient(to top, var(--secondary-medium), var(--secondary-dark));
+	--control-text-hover: linear-gradient(to top, var(--accent-medium), var(--accent-dark));
+	--control-volume: linear-gradient(to bottom, var(--secondary-medium), var(--secondary-dark));
+	--control-volume-hover: linear-gradient(to bottom, var(--secondary-bright), var(--secondary-medium));
+	--editor: #111511;
+	--focus: var(--accent-bright);
+	--library-header: linear-gradient(to bottom, var(--primary-medium), var(--primary-dark));
+	--library-header-hover: linear-gradient(to bottom, var(--primary-bright), var(--primary-medium));
+	--library-header-hover-color: #94c7ff;
+	--link: var(--accent-medium);
+	--link-hover: var(--accent-bright) !important;
+}
+
+html[data-theme="D3nschot"] {
+	--button-hover-color: #badbff;
+	--canvas-border: linear-gradient(#001050, #001050) 1;
+	--canvas-button: linear-gradient(to bottom, #001050, #001050);
+	--canvas-button-color: #c5c8c6;
+	--canvas-button-hover: linear-gradient(to bottom, #0020a0, #0020a0) !important;
+	--code-button: linear-gradient(to bottom, #001050, #001050);
+	--code-button-hover: linear-gradient(to bottom, #0020a0, #0020a0);
+	--control-button: linear-gradient(to bottom, #001050, #001050);
+	--control-button-active: linear-gradient(to bottom, #001050, #001050);
+	--control-button-hover: linear-gradient(to bottom, #0020a0, #0020a0);
+	--control-text: linear-gradient(to top, #001050, #001050);
+	--control-text-hover: linear-gradient(to top, #0020a0, #0020a0);
+	--control-volume: linear-gradient(to bottom, #001050, #001050);
+	--control-volume-hover: linear-gradient(to bottom, #0020a0, #0020a0);
+	--editor: #191c22;
+	--focus: #614fdb;
+	--library-header: linear-gradient(to bottom, #001050, #001050);
+	--library-header-hover: linear-gradient(to bottom, #0020a0, #0020a0);
+	--library-header-hover-color: #94c7ff;
+	--link: #89c2ff;
+	--link-hover: #00FFFF !important;
+}
+
+html[data-theme="Dollchan"] {
+	--button-hover-color: #badbff;
+	--canvas-border: linear-gradient(#fda757, #fda757) 1;
+	--canvas-button: linear-gradient(to bottom, #67789d, #181f33);
+	--canvas-button-color: #c5c8c6;
+	--canvas-button-hover: linear-gradient(to bottom, #92aeec, #181f33) !important;
+	--code-button: linear-gradient(to bottom, #424242, #171b22);
+	--code-button-hover: linear-gradient(to bottom, #3c508a, #1f2331);
+	--control-button: linear-gradient(to bottom, #959595, #242a37);
+	--control-button-active: linear-gradient(to bottom, #505f84, #1c1e26);
+	--control-button-hover: linear-gradient(to bottom, #738cc1, #28314a);
+	--control-text: linear-gradient(to top, #3a445e, #181c26);
+	--control-text-hover: linear-gradient(to top, #556897, #182033);
+	--control-volume: linear-gradient(to bottom, #aeaeae, #484c55);
+	--control-volume-hover: linear-gradient(to bottom, #90a7d7, #3f4c71);
+	--editor: #191c22;
+	--focus: #614fdb;
+	--library-header: linear-gradient(to bottom, #202c46, #0b0d17);
+	--library-header-hover: linear-gradient(to bottom, #32426c, #151b2b);
+	--library-header-hover-color: #94c7ff;
+	--link: #89c2ff;
+	--link-hover: #ed88fb !important;
+}
+
+html[data-theme="Dusk"] {
+	--button-hover-color: #8af4ff;
+	--canvas-border: linear-gradient(#101018, #303048) 1;
+	--canvas-button: linear-gradient(to bottom, #303048, #101018);
+	--canvas-button-color: #c0c0c0;
+	--canvas-button-hover: linear-gradient(to bottom, #606090, #303048) !important;
+	--code-button: linear-gradient(to top, #303030, #202020);
+	--code-button-hover: linear-gradient(to top, #505050, #303030);
+	--control-button: linear-gradient(to bottom, #202030, #404060);
+	--control-button-active: linear-gradient(to bottom, #203020, #406040);
+	--control-button-hover: linear-gradient(to bottom, #404060, #606080);
+	--control-text: linear-gradient(to top, #404060, #000000);
+	--control-text-hover: linear-gradient(to top, #606090, #303030);
+	--control-volume: linear-gradient(to bottom, #404060, #202030);
+	--control-volume-hover: linear-gradient(to bottom, #606090, #303048);
+	--editor: #101018;
+	--focus: #8080c0;
+	--library-header: linear-gradient(to bottom, #202030, #404060);
+	--library-header-hover: linear-gradient(to bottom, #303048, #606096);
+	--library-header-hover-color: #d0d0f0;
+	--link: #8080c0;
+	--link-hover: #c0c0f0 !important;
+}
+
+html[data-theme="Green"] {
+	--button-hover-color: #aaffc4;
+	--canvas-border: linear-gradient(#a4ffcc, #a4ffcc) 1;
+	--canvas-button: linear-gradient(to bottom, #429152, #0d2814);
+	--canvas-button-hover: linear-gradient(to bottom, #51be67, #18331f) !important;
+	--code-button: linear-gradient(to bottom, #345e3d, #17221b);
+	--code-button-hover: linear-gradient(to bottom, #3c8a50, #1f3123);
+	--control-button: linear-gradient(to bottom, #508453, #17351d);
+	--control-button-active: linear-gradient(to bottom, #336036, #0c1e10);
+	--control-button-hover: linear-gradient(to bottom, #4ca85f, #0f2815);
+	--control-text: linear-gradient(to top, #3a5e44, #18261c);
+	--control-text-hover: linear-gradient(to top, #448b59, #1d3f27);
+	--control-volume: linear-gradient(to bottom, #5a9d5e, #17351d);
+	--control-volume-hover: linear-gradient(to bottom, #68b46d, #3f714c);
+	--editor: #0f1712;
+	--focus: #aaffc4;
+	--library-header: linear-gradient(to bottom, #20462c, #0b170d);
+	--library-header-hover: linear-gradient(to bottom, #326c42, #152b1b);
+	--library-header-hover-color: #94ffc7;
+	--link: #89ffac;
+}
+
+html[data-theme="Orange"] {
+	--button-hover-color: #ffffa5;
+	--canvas-button: linear-gradient(to bottom, #ff8f0f, #38240d);
+	--canvas-button-hover: linear-gradient(to bottom, #ffa743, #6d4313) !important;
+	--code-button: linear-gradient(to bottom, #c55c00, #221306);
+	--code-button-hover: linear-gradient(to bottom, #eb6d00, #4e2e10);
+	--control-button: linear-gradient(to bottom, #df791e, #372311);
+	--control-button-active: linear-gradient(to bottom, #9c5416, #291a0d);
+	--control-button-hover: linear-gradient(to bottom, #f89d4d, #4e2e10);
+	--control-text: linear-gradient(to top, #b35d1f, #392415);
+	--control-text-hover: linear-gradient(to top, #e08341, #583821);
+	--control-volume: linear-gradient(to bottom, #ec8328, #372311);
+	--control-volume-hover: linear-gradient(to bottom, #ffaf6a, #4e2e10);
+	--editor: #171006;
+	--focus: #fff2aa;
+	--library-header: linear-gradient(to bottom, #c56600, #1d1206);
+	--library-header-hover: linear-gradient(to bottom, #f58004, #3b260d);
+	--library-header-hover-color: #ffffa5;
+	--link: #d6ff8e;
+}
+
+html[data-theme="Purple"] {
+	--canvas-border: linear-gradient(#c9b0ff, #c9b0ff) 1;
+	--canvas-button: linear-gradient(to bottom, #9b3c8b, #331833);
+	--canvas-button-hover: linear-gradient(to bottom, #c765bf, #331832) !important;
+	--code-button: linear-gradient(to bottom, #5e345e, #221722);
+	--code-button-hover: linear-gradient(to bottom, #8a3c8a, #311f30);
+	--control-button: linear-gradient(to bottom, #845084, #321735);
+	--control-button-active: linear-gradient(to bottom, #603360, #1e0c1d);
+	--control-button-hover: linear-gradient(to bottom, #a54ca8, #280f28);
+	--control-text: linear-gradient(to top, #513a5e, #241826);
+	--control-text-hover: linear-gradient(to top, #744391, #431f49);
+	--control-volume: linear-gradient(to bottom, #985a9d, #331735);
+	--control-volume-hover: linear-gradient(to bottom, #ab68b4, #693f71);
+	--editor: #1a121c;
+	--focus: #8289ff;
+	--library-header: linear-gradient(to bottom, #432046, #170b16);
+	--library-header-hover: linear-gradient(to bottom, #65326c, #2b152a);
+	--link: #ca89ff;
+	--link-hover: #94c7ff !important;
+}
+
+html[data-theme="Teal"] {
+	--button-hover-color: #aaf9ff;
+	--canvas-border: linear-gradient(#88fbff, #88fbff) 1;
+	--canvas-button: linear-gradient(to bottom, #44aeb5, #0d2728);
+	--canvas-button-hover: linear-gradient(to bottom, #60dfdf, #1f4344) !important;
+	--code-button: linear-gradient(to bottom, #3e938e, #172222);
+	--code-button-hover: linear-gradient(to bottom, #59c1bc, #183839);
+	--control-button: linear-gradient(to bottom, #6cc1c1, #244648);
+	--control-button-active: linear-gradient(to bottom, #43888c, #153133);
+	--control-button-hover: linear-gradient(to bottom, #59dbe3, #183637);
+	--control-text: linear-gradient(to top, #357379, #153639);
+	--control-text-hover: linear-gradient(to top, #3e8d94, #1d4c50);
+	--control-volume: linear-gradient(to bottom, #57b7bd, #193b3e);
+	--control-volume-hover: linear-gradient(to bottom, #4dd7e0, #1f494d);
+	--editor: #061717;
+	--focus: #aafcff;
+	--library-header: linear-gradient(to bottom, #2b8082, #0e2828);
+	--library-header-hover: linear-gradient(to bottom, #3c9fa2, #214a4a);
+	--library-header-hover-color: #94fbff;
+	--link: #8efbff;
+}
+
+html[data-theme="Red"] {
+	--button-hover-color: #f1eaea;
+	--canvas-border: linear-gradient(#c20505, #d40c0c) 1;
+	--canvas-button: linear-gradient(to bottom, #801b1b, #4e0808);
+	--canvas-button-hover: linear-gradient(to bottom, #b31515, #3f0a0a) !important;
+	--code-button: linear-gradient(to bottom, #8b0d0d, #3b1616);
+	--code-button-hover: linear-gradient(to bottom, #d41c1c, #7a1414);
+	--control-button: linear-gradient(to bottom, #7c0505, #2b0404);
+	--control-button-active: linear-gradient(to bottom, #5a0f0f, #3b0505);
+	--control-button-hover: linear-gradient(to bottom, #b40202, #740b0b);
+	--control-text: linear-gradient(to top, #af1919, #4b0a0a);
+	--control-text-hover: linear-gradient(to top, #da2020, #5c2121);
+	--control-volume: linear-gradient(to bottom, #9b1515, #630a0a);
+	--control-volume-hover: linear-gradient(to bottom, #e74a4a, #750d0d);
+	--editor: #1f0404;
+	--focus: #ad0d0d;
+	--library-header: linear-gradient(to bottom, #5f1313, #2b0505);
+	--library-header-hover: linear-gradient(to bottom, #b11010, #4d1010);
+	--library-header-hover-color: #dadada;
+	--link: #ff0000;
+	--link-hover: #a04b4b !important;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: var(--link);
+}
+
+a:hover,
+a:active {
+	color: var(--link-hover);
+}
+
+:focus-visible {
+	outline: 2px solid var(--focus);
+}
+
+.hidden {
+	display: none !important;
+}
+
+option {
+	background: white;
+	font-size: var(--font-size);
+}
+
+/* ==[ Containers ] ======================================================================================= */
+
+.container-expanded {
+	height: 100%;
+}
+
+.container-expanded+#container-scroll {
+	display: none;
+}
+
+#container-fixed {
+	display: flex;
+	flex-direction: column;
+	max-width: 1028px;
+	max-height: 100vh;
+}
+
+#container-scroll {
+	max-width: 1028px;
+	min-height: 256px;
+	width: 100%;
+	margin-top: 2px;
+	overflow-y: auto;
+}
+
+#content {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	height: 100vh;
+}
+
+footer {
+	margin-left: 9px;
+}
+
+/* ==[ Canvas ] =========================================================================================== */
+
+#canvas-container {
+	display: flex;
+	flex-shrink: 0;
+	position: relative;
+	box-sizing: border-box;
+	border-width: 2px;
+	border-style: solid;
+	border-image: var(--canvas-border);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#canvas-main {
+	width: 100%;
+	height: auto;
+}
+
+#canvas-timecursor {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	border-left: 2px solid rgb(154, 185, 223);
+	box-shadow: 0 0 4px #7fa7ff, 0 0 16px #b3c0d8;
+	left: 0;
+}
+
+/* ==[ Canvas play/pause button ] ========================================================================= */
+
+#canvas-container:hover>#canvas-play {
+	display: block;
+	background-image: var(--canvas-button-hover);
+}
+
+.canvas-initial {
+	display: block !important;
+	background-image: var(--canvas-button);
+}
+
+.canvas-pause>#svg-canvas-play,
+.canvas-play>#svg-canvas-pause {
+	display: none;
+}
+
+#canvas-play {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 1px 8px;
+	border-radius: 16px;
+	color: var(--canvas-button-color);
+	line-height: 0;
+	transform: translate(-50%, -50%);
+}
+
+#canvas-play>svg {
+	width: 46px;
+	height: 46px;
+	fill: currentColor;
+}
+
+.canvas-play-backward>#svg-canvas-play {
+	transform: scaleX(-1);
+}
+
+/* ==[ Editor ] =========================================================================================== */
+
+button[name="close"] {
+	color: #abb2bf;
+}
+
+.container-expanded>#editor-container {
+	flex: auto;
+}
+
+#editor-container {
+	width: calc(100% - 4px);
+	height: 256px;
+	border: 2px solid #bac2cc;
+	resize: vertical;
+	overflow: hidden;
+}
+
+#editor-default {
+	width: 100%;
+	height: 100%;
+	padding: 3px 3px 3px 33px;
+	border: none;
+	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
+	font: var(--font-size)/var(--font-size) monospace;
+	outline: none;
+	resize: none;
+}
+
+.cm-content {
+	font-weight: bold;
+	caret-color: #fff !important;
+}
+
+.cm-editor {
+	height: 100%;
+	background-color: var(--editor);
+}
+
+.cm-scroller {
+	line-height: var(--font-size) !important;
+}
+
+.cm-matchingBracket,
+.cm-selectionMatch {
+	margin: -1px;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.cm-searchMatch-selected {
+	background-color: #d541ffba !important;
+}
+
+.cmt-number {
+	color: #ff8dfd;
+}
+
+.cmt-keyword,
+.cmt-operator {
+	color: #96cbfe;
+}
+
+.cmt-propertyName {
+	color: #ffd2a7;
+}
+
+.cmt-punctuation,
+.cmt-variableName {
+	color: #c5c8c6;
+}
+
+.cmt-string {
+	color: #a8ff60;
+}
+
+#error {
+	margin: 0;
+	color: #f92672;
+	font: 14px/14px monospace;
+	word-break: break-all;
+}
+
+::selection {
+	background-color: #596999 !important;
+}
+
+/* ==[ Library ] ========================================================================================== */
+
+.code-button {
+	margin: 1px 0 0 6px;
+	padding: 2px 6px;
+	border: none;
+	border-radius: 3px;
+	background-image: var(--code-button);
+	color: #ced5e1;
+	font: var(--font-size)/var(--font-size) sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.code-button:hover {
+	background-image: var(--code-button-hover);
+	color: var(--button-hover-color);
+}
+
+.code-button.children-toggle {
+	margin: 8px 0 5px 0;
+	padding: 5px 10px;
+	width: fit-content;
+}
+
+.code-exotic {
+	color: #dd840f;
+}
+
+.code-length,
+.code-info {
+	color: gray;
+	cursor: default;
+}
+
+.code-remix {
+	font-size: 90%;
+}
+
+.code-stereo {
+	color: #09ad69;
+}
+
+.code-text {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	color: #ffcc53;
+	background: none;
+	font: var(--font-size)/16px monospace;
+	text-align: left;
+	text-decoration: none;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	word-break: break-all;
+	user-select: text;
+	cursor: pointer;
+}
+
+.code-text:hover {
+	color: #ed88fb !important;
+}
+
+.entry {
+	position: relative;
+}
+
+.entry-children .entry:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.entry-children .entry>.entry-children {
+	margin-left: 11px;
+}
+
+.entry-top {
+	padding: 8px 12px 8px 10px;
+}
+
+.entry-top:not(:first-child) {
+	border-top: 1px solid #404040;
+}
+
+.library-content {
+	margin: 4px 0;
+	border-right: 1px solid #444;
+	border-left: 1px solid #444;
+	border-radius: 3px;
+	background: #0a0a0a;
+}
+
+.library-content[open] {
+	border-bottom: 1px solid #444;
+}
+
+.library-header {
+	padding: 4px 8px;
+	border-radius: 3px;
+	background-image: var(--library-header);
+	cursor: pointer;
+}
+
+.library-header:hover,
+.library-header:focus-visible {
+	background-image: var(--library-header-hover);
+	color: var(--library-header-hover-color);
+}
+
+.library-header>h1 {
+	display: inline;
+	margin: inherit;
+	font-size: var(--font-size);
+}
+
+.loading-error {
+	text-align: center;
+	color: #f92672;
+}
+
+@keyframes wait-anim {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.loading-wait {
+	width: 16px;
+	height: 16px;
+	margin-left: 6px;
+	vertical-align: top;
+	animation: wait-anim 1s linear infinite;
+}
+
+/* ==[ Controls ] ========================================================================================= */
+
+.control-button,
+.control-select,
+.control-label {
+	height: var(--control-size);
+	padding: 0;
+	border: none;
+	border-radius: var(--control-corners);
+	background-image: var(--control-button);
+	color: rgb(209, 209, 209);
+	font: bold var(--font-size)/var(--control-size) sans-serif;
+	cursor: pointer;
+}
+
+.control-button[disabled] {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.control-button:not([disabled]):hover,
+.control-select:hover {
+	background-image: var(--control-button-hover);
+	color: var(--button-hover-color);
+}
+
+.control-button:not([disabled]):active,
+.control-select:active {
+	background-image: var(--control-button-active);
+}
+
+.control-button>svg {
+	width: var(--control-size);
+	height: var(--control-size);
+	fill: currentColor;
+}
+
+#control-codesize {
+	min-width: 56px;
+	cursor: default;
+}
+
+#control-counter {
+	width: 189px;
+	border-radius: 0 var(--control-corners) var(--control-corners) 0;
+}
+
+#control-counter:hover,
+#control-samplerate:hover {
+	background-image: var(--control-text-hover);
+}
+
+#control-counter-units {
+	width: 32px;
+	text-align: center;
+	user-select: none;
+}
+
+.control-fast>.svg-play,
+.control-play>.svg-fast,
+.control-play>.control-fast-multiplier {
+	display: none;
+}
+
+.control-fast-multiplier {
+	position: absolute;
+}
+
+.control-label {
+	padding: 0 8px !important
+}
+
+#control-lag {
+	width: 30px;
+	border-radius: 6px;
+	text-align: right;
+	cursor: default;
+}
+
+.control-lag-red {
+	background: linear-gradient(#300, #aa0020) !important;
+}
+
+#control-play-backward,
+#control-play-forward {
+	position: relative;
+}
+
+#control-play-backward>.control-fast-multiplier {
+	right: 5px;
+}
+
+#control-play-backward>.control-fast-multiplier-large {
+	right: 4px;
+	letter-spacing: -2px;
+}
+
+#control-play-backward>svg {
+	transform: scaleX(-1);
+}
+
+#control-play-forward>.control-fast-multiplier {
+	left: 5px;
+}
+
+#control-play-forward>.control-fast-multiplier-large {
+	left: 2px;
+	letter-spacing: -2px;
+}
+
+#control-rec.control-recording {
+	color: #b50000;
+}
+
+@keyframes blink {
+	50% {
+		opacity: 0.0;
+	}
+}
+
+.control-recording>svg {
+	animation: blink 1s step-start 0s infinite;
+}
+
+#control-samplerate {
+	width: 132px;
+	border-radius: var(--control-corners) 0 0 var(--control-corners);
+}
+
+#control-samplerate-select {
+	width: 18px;
+	border-radius: 0;
+}
+
+#control-scale {
+	min-width: 26px;
+	padding: 0 2px;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+#control-srdivisor {
+	flex-grow: 0;
+	width: 16px;
+	cursor: default;
+}
+
+#control-srdivisor-buttons {
+	display: flex;
+	flex-direction: column;
+	width: 16px;
+}
+
+#control-srdivisor-down {
+	height: 15px !important;
+	font: unset;
+	border-radius: 6px 0 0 0;
+	transform: rotate(180deg);
+}
+
+#control-srdivisor-up {
+	height: 15px !important;
+	font: unset;
+	border-radius: 0 6px 0 0;
+}
+
+.control-select {
+	padding-left: 2px;
+	border: none;
+}
+
+.control-select>option {
+	color: black;
+}
+
+.control-text {
+	height: var(--control-size);
+	padding: 0 4px;
+	background: var(--control-text);
+	color: #e3e3e3;
+	border: none;
+	font: bold var(--font-size)/var(--control-size) monospace;
+	box-shadow: inset 0 0 12px rgba(202, 202, 202, 0.5);
+}
+
+#control-volume {
+	flex-grow: 1;
+	appearance: none;
+	height: 10px;
+	margin: 10px 0;
+	border-radius: 4px;
+	background-color: #393d44;
+	align-self: center;
+}
+
+#control-volume::-moz-range-thumb {
+	width: 10px;
+	height: var(--control-size);
+	border: none;
+	border-radius: 4px;
+	background-image: var(--control-volume);
+	cursor: pointer;
+}
+
+#control-volume::-moz-range-thumb:hover {
+	background-image: var(--control-volume-hover);
+}
+
+#control-volume::-webkit-slider-thumb {
+	appearance: none;
+	width: 10px;
+	height: var(--control-size);
+	border: none;
+	border-radius: 4px;
+	background-image: var(--control-volume);
+	cursor: pointer;
+}
+
+#control-volume::-webkit-slider-thumb:hover {
+	background-image: var(--control-volume-hover);
+}
+
+.controls {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 3px;
+	padding: 3px 0;
+}
+
+.controls-group {
+	display: flex;
+}
+
+.controls-group>.control-button {
+	border-left: 1px solid #5c636c;
+	border-radius: 0;
+}
+
+.controls-group> :first-child {
+	border: none;
+	border-radius: var(--control-corners) 0 0 var(--control-corners);
+}
+
+.controls-group> :last-child {
+	border-radius: 0 var(--control-corners) var(--control-corners) 0;
+}
+
+.controls-grow,
+.controls-grow>input {
+	flex-grow: 1;
+}
+
+/* ==[ Adaptive screen ] ================================================================================== */
+
+@media screen and (max-height: 768px) and (min-width: 768px) {
+	#container-fixed {
+		flex-shrink: 0;
+		max-width: 516px;
+		height: 100%;
+	}
+
+	#container-scroll {
+		display: block !important;
+		height: 100%;
+		margin-top: 0;
+		margin-left: 6px;
+		padding-right: 6px;
+	}
+
+	#content {
+		flex-flow: row;
+		align-items: start;
+	}
+
+	#control-counter {
+		width: 66px;
+	}
+
+	#control-expand {
+		display: none;
+	}
+
+	#editor-container {
+		flex: auto;
+		resize: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	#container-fixed,
+	#container-scroll {
+		max-width: 516px;
+	}
+
+	#control-counter {
+		width: 66px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	#container-fixed {
+		flex-shrink: 0;
+		height: 100%;
+	}
+
+	#container-scroll {
+		display: block !important;
+		max-width: initial;
+		height: 100%;
+		margin-top: 0;
+		margin-left: 6px;
+		padding-right: 6px;
+	}
+
+	#content {
+		flex-flow: row;
+		align-items: start;
+	}
+
+	#control-expand {
+		display: none;
+	}
+
+	#editor-container {
+		flex: auto;
+		resize: none;
+	}
+}

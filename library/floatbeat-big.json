@@ -1,0 +1,2033 @@
+[
+    {
+        "author": "Wiebe-Marten Wijnja",
+        "children": [
+            {
+                "name": "Cover of 'Predestined Fate' from VVVVVV",
+                "cover": {
+                    "name": "VVVVVV - Predestined Fate",
+                    "url": "https://youtu.be/yv_lcgLFJmc"
+                },
+                "mode": "Floatbeat",
+                "url": [
+                    "https://wmmusic.nl/code/",
+                    "https://web.archive.org/web/20130718135526/http://wmmusic.nl/"
+                ],
+                "date": "2013",
+                "file": "Wiebe-Marten Wijnja.js",
+                "fileOriginal": true,
+                "fileFormatted": true,
+                "fileMinified": true
+            },
+            {
+                "name": "Cover of 'Please Exist' from Knytt Underground",
+                "cover": {
+                    "name": "Nifflas - Please Exist",
+                    "url": "https://youtu.be/TO38IBxSS6I"
+                },
+                "mode": "Floatbeat",
+                "url": [
+                    "https://wmmusic.nl/code/",
+                    "https://web.archive.org/web/20130718135526/http://wmmusic.nl/"
+                ],
+                "sampleRate": 44100,
+                "date": "2013",
+                "file": "Wiebe-Marten Wijnja2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Bytebeat cover of 'Focus' from SuperHexagon",
+                "cover": {
+                    "name": "chipzel - Focus",
+                    "url": "https://www.youtube.com/watch?v=wD3j1O1XHQY"
+                },
+                "mode": "Floatbeat",
+                "url": [
+                    "https://wmmusic.nl/code/",
+                    "https://web.archive.org/web/20130718135526/http://wmmusic.nl/"
+                ],
+                "date": "2013",
+                "file": "Wiebe-Marten Wijnja3.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "lehandsomeguy",
+        "name": "Melody with array 2",
+        "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/comment/d0m16md/",
+        "date": "Mar 03, 2016",
+        "mode": "Floatbeat",
+        "sampleRate": 44100,
+        "file": "lehandsomeguy3.js",
+        "fileOriginal": true,
+        "fileMinified": true
+    },
+    {
+        "author": "ANoUserXD (BSquareII)",
+        "children": [
+            {
+                "name": "Cool New 8000 Hz Harmony (Sine with reverb edition and floatbeat)",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "Cool New 8000 Hz Harmony I made",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/14hakl3/cool_new_8000_hz_harmony_i_made/"
+                },
+                "mode": "Floatbeat",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/14hshup/cool_new_8000_hz_harmony_sine_with_reverb_edition/",
+                    "https://ihsoyct.github.io/index.html?comments=14hshup&backend=pullpush",
+                    "https://web.archive.org/web/20250119192447/https://www.reddit.com/r/bytebeat/comments/14hshup/cool_new_8000_hz_harmony_sine_with_reverb_edition/"
+                ],
+                "date": "Jun 24, 2023",
+                "sampleRate": 32000,
+                "file": "anouserxd1.js",
+                "fileOriginal": true,
+                "fileMinified": true
+            },
+            {
+                "name": "\"anxious\" with reverb V2",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "anxious",
+                    "url": "https://dollchan.net/btb/res/2628.html#4982"
+                },
+                "mode": "Floatbeat",
+                "url": [
+                    "https://www.reddit.com/r/DollchanBytebeat/comments/1heb73a/comment/m266r78/",
+                    "https://ihsoyct.github.io/index.html?comments=1heb73a&id=m266r78"
+                ],
+                "date": "Dec 15, 2024",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "anuxd3.js",
+                "fileOriginal": true,
+                "fileMinified": true
+            },
+            {
+                "name": "\"useless1 but in Slide Meodica Bliss\" with drums remix",
+                "remix": {
+                    "name": "useless1 but in Slide Meodica Bliss ",
+                    "author": "PrincessPriscillaPT",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1hfg5kz/useless1_but_in_slide_meodica_bliss/"
+                },
+                "mode": "Floatbeat",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/1jus74f/useless1_but_in_slide_meodica_bliss_with_drums/",
+                    "https://ihsoyct.github.io/index.html?comments=1jus74f"
+                ],
+                "date": "Apr 08, 2025",
+                "sampleRate": 32000,
+                "file": "anuxd5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "wlgekelkqisqnsnziqsgignkzwwezl",
+                "remix": {
+                    "name": "gqzkslneiw",
+                    "author": "BaenHoHoHo",
+                    "url": "https://www.reddit.com/r/bytebeat_2/comments/1r8vpv6/gqzkslneiw/"
+                },
+                "mode": "Floatbeat",
+                "date": "Mar 24, 2026",
+                "sampleRate": 48000,
+                "file": "anuxd1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "i did not expect to get this far",
+                "remix": {
+                    "name": "update",
+                    "author": "ANoUserXD",
+                    "url": "https://www.bytebeat.cloud/post/51ba7f70-8c6d-4422-8144-7a77a8078be3"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.bytebeat.cloud/post/94f5f2bd-629a-4fa9-9a0c-c58d753aff41",
+                "date": "May 28, 2026",
+                "sampleRate": 45000,
+                "stereo": true,
+                "file": "anuxd9.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "guess who's back on the show?",
+                "remix": {
+                    "name": "minified moment",
+                    "author": "ANoUserXD",
+                    "url": "https://dollchan.net/btb/res/2628.html#4643"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.bytebeat.cloud/post/38107f52-ef69-456d-8374-82c8d0c5d1a9",
+                "date": "Jun 02, 2026",
+                "sampleRate": 36000,
+                "stereo": true,
+                "file": "anuxd.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "very slowed down without drums",
+                "remix": {
+                    "name": "guess who's back on the show?",
+                    "author": "ANoUserXD",
+                    "url": "https://www.bytebeat.cloud/post/38107f52-ef69-456d-8374-82c8d0c5d1a9"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.bytebeat.cloud/post/d8bf0ea6-3478-4467-a664-8b1019eadcd0",
+                "date": "Jun 02, 2026",
+                "sampleRate": 36000,
+                "stereo": true,
+                "file": "anuxd11.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "BaenHoHoHo",
+        "children": [
+            {
+                "name": "i remixed decent-manager-6169's thing because idk",
+                "remix": {
+                    "author": "Decent-Manager-6169",
+                    "name": "please someone remix this",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+                },
+                "mode": "Floatbeat",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/14iubkv/i_remixed_decentmanager6169s_thing_because_idk/",
+                    "https://ihsoyct.github.io/index.html?comments=14iubkv",
+                    "https://web.archive.org/web/20230625190707/https://www.reddit.com/r/bytebeat/comments/14iubkv/i_remixed_decentmanager6169s_thing_because_idk/"
+                ],
+                "date": "Jun 25, 2023",
+                "sampleRate": 48000,
+                "file": "baenhohoho.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "doing this for fun lmao",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "736367373537",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1d26qkg/736367373537/"
+                },
+                "mode": "Floatbeat",
+                "date": "Apr 24, 2025",
+                "sampleRate": 36000,
+                "file": "baenhohoho2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "dance till i'm dead",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/1mt9i6e/dance_till_im_dead/",
+                    "https://dollchan.net/btb/res/117.html#8859"
+                ],
+                "cover": {
+                    "name": "Yeah Yeah Yeahs - Heads Will Roll",
+                    "url": "https://www.youtube.com/watch?v=auzfTPp4moA"
+                },
+                "mode": "Floatbeat",
+                "date": "Aug 17, 2025",
+                "sampleRate": 48000,
+                "file": "baen0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "untitledsong_4",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/1n5e255/untitledsong_4/",
+                    "https://dollchan.net/btb/res/117.html#8964"
+                ],
+                "remix": {
+                    "author": "lhphr",
+                    "name": "Time Is A Suggestion",
+                    "url": "https://dollchan.net/btb/res/44.html#69"
+                },
+                "mode": "Floatbeat",
+                "date": "Aug 31, 2025",
+                "file": "baen.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "motivational loss",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1p7ja28/motivational_loss/",
+                "remix": {
+                    "author": "BaenHoHoHo",
+                    "name": "another remix of something",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1bhd4y5/another_remix_of_something/"
+                },
+                "mode": "Floatbeat",
+                "date": "Nov 26, 2025",
+                "sampleRate": 24000,
+                "stereo": true,
+                "file": "baen5.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "Greaserpirate",
+        "children": [
+            {
+                "name": "Phonk bass added",
+                "remix": {
+                    "name": "true phonk i made in bytebeat lol",
+                    "author": "NikNemメ",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/the_true_phonk_i_made_in_bytebeat_lol/"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/comment/jr41k2g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+                "date": "Jul 07, 2023",
+                "sampleRate": 44100,
+                "stereo": true,
+                "file": "greaserpirate6.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Intro",
+                "remix": {
+                    "author": "Greaserpirate",
+                    "name": "Phonk bass added",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/comment/jr41k2g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/comment/jr431d9/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1",
+                "date": "Jul 07, 2023",
+                "sampleRate": 44100,
+                "stereo": true,
+                "file": "greaserpirate7.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Bathed In Lasers (WIP)",
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1jwfz8l/bathed_in_lasers_bytebeat_master_level/",
+                "date": "Apr 11, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "greaserpirate.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "Spimfurt",
+        "children": [
+            {
+                "name": "rock'n'roll template",
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/3.html#1793",
+                "date": "Aug 03, 2023",
+                "sampleRate": 48000,
+                "file": "spimfurt.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Procedural mayhem",
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/3.html#1893",
+                "date": "Aug 12, 2023",
+                "sampleRate": 48000,
+                "file": "spimfurt0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Riff-o-Sin",
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/3.html#2618",
+                "date": "Nov 10, 2023",
+                "sampleRate": 48000,
+                "file": "spimfurt1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "6 strings of semijazz",
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/3.html#2672",
+                "date": "Nov 20, 2023",
+                "sampleRate": 48000,
+                "file": "spimfurt2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "6 other superstrings found at the horizon",
+                "remix": {
+                    "author": "Spimfurt",
+                    "name": "6 strings of semijazz",
+                    "url": "https://dollchan.net/btb/res/3.html#2672"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.bytebeat.cloud/post/c2ec2a96-099a-4bc7-be56-d2f31d692186",
+                "date": "Jul 04, 2026",
+                "sampleRate": 48000,
+                "file": "spimfurt3.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "absolute197",
+        "children": [
+            {
+                "name": "percussion with instruments",
+                "mode": "Floatbeat",
+                "url": [
+                    "https://dollchan.net/btb/res/951.html#2148",
+                    "https://www.reddit.com/r/bytebeat/comments/166c4cb/perc_with_instruments/",
+                    "https://ihsoyct.github.io/index.html?comments=166c4cb&backend=artic_shift"
+                ],
+                "date": "Aug 31, 2023",
+                "sampleRate": 48000,
+                "file": "absolute197.js",
+                "fileOriginal": true
+            },
+            {
+                "mode": "Floatbeat",
+                "url": [
+                    "https://www.reddit.com/r/psubscirbe/comments/16byisg/abandoned_subreddit/jzocw2q/",
+                    "https://ihsoyct.github.io/index.html?comments=16byisg&id=jzocw2q&backend=artic_shift"
+                ],
+                "date": "Sep 08, 2023",
+                "sampleRate": 25600,
+                "file": "absolute197-9.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Dark Sunset",
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/951.html#2302",
+                "date": "Sep 16, 2023",
+                "sampleRate": 27050,
+                "file": "absolute197-2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "ǎ̬̹ǀ̽͑͗˕o᷄̌᷈˖̟̠̽ɴ̝˖ʲ̌˔ɘ̻̻̺  ɫˤʲ˕̌ŋ˔˖̻̌  ʈ˖ʜ˕˖eⁿⁿ̺͗̌    ɖ˔̌˕ʲ˖̼͗ɐ̝̞̌ʷr̻̺̰ˡ̬k˖˔ⁿ",
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/951.html#2357",
+                "date": "Sep 28, 2023",
+                "sampleRate": 16000,
+                "file": "absolute197-8.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "remake of polyzium's \"LPF 24dB/oct\"",
+                "remix": {
+                    "author": "polyzium",
+                    "name": "LPF 24dB/oct",
+                    "url": "https://dollchan.net/btb/res/3.html#118"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1lt6y2v/remake_of_polyziums_lpf_24dboct/",
+                "date": "July 06, 2025",
+                "sampleRate": 44100,
+                "file": "abs197-4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "v813~->2v;v2'284cvnc92..bb''4b' (unf1nished)",
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1mhne7m/v8132vv2284cvnc92bb4b_unf1nished/",
+                "date": "Aug 04, 2025",
+                "sampleRate": 32000,
+                "file": "abs197-3.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "Cattoadishere",
+        "children": [
+            {
+                "remix": {
+                    "author": "lhphr",
+                    "name": "The Unescaper",
+                    "url": "https://dollchan.net/btb/res/44.html#127"
+                },
+                "name": "A 15-minute long The Unescaper remix",
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/18vkt1c/a_15minute_long_the_unescaper_remix/",
+                "date": "Jan 01, 2024",
+                "sampleRate": 32000,
+                "file": "cattoadishere2.js",
+                "fileOriginal": true
+            },
+            {
+                "remix": {
+                    "author": "SthephanShi",
+                    "name": "Wanderer",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1eq6m9n/wanderer/"
+                },
+                "cover": {
+                    "name": "Pizza Tower OST - It's Pizza Time!",
+                    "url": "https://www.youtube.com/watch?v=B7gGacb8cO4"
+                },
+                "name": "SthephanShi - Wanderer (PT Version)",
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1hoc4qa/sthephanshi_wanderer_pt_version/",
+                "date": "Dec 28, 2024",
+                "sampleRate": 48000,
+                "file": "cattoadishere3.js",
+                "fileOriginal": true
+            },
+            {
+                "cover": {
+                    "name": "Ethereal Workshop - Full Song Wave 7 (My Singing Monsters)",
+                    "url": "https://www.youtube.com/watch?v=PWRx2IoVqs8"
+                },
+                "name": "Ethereal Byteshop v1.0",
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1k2mihy/ethereal_byteshop_v10/",
+                "date": "Apr 19, 2025",
+                "sampleRate": 48000,
+                "file": "cattoadishere.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "PrincessPriscillaPT",
+        "children": [
+            {
+                "name": "DnB Time",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "Another Zack's bytewave engine remix + SWANG algorithm",
+                    "url": "https://ihsoyct.github.io/index.html?comments=1i7rw7q"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1i7rw7q/comment/m90g3pv/",
+                "date": "Jan 24, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "PrincessPriscillaPT3.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "wavgun",
+                "cover": {
+                    "name": "nico's nextbots ost - wavgun",
+                    "url": "https://www.youtube.com/watch?v=QgSsrCVGKP4"
+                },
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/7164.html#8959",
+                "date": "Aug 30, 2025",
+                "sampleRate": 44100,
+                "stereo": true,
+                "file": "PrincessPriscillaPT2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "ANoUserXD - 736367373537 [PrincessPriscillaPT Remix]",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "736367373537",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1d26qkg/736367373537/"
+                },
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/7164.html#10154",
+                "date": "Oct 25, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "PrincessPriscillaPT.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "bell waveform + reverb",
+                "remix": {
+                    "author": "greenandyellowcatjuice",
+                    "name": "Alarm05.wav",
+                    "url": "https://www.bytebeat.cloud/post/a20a1d70-6359-421e-9b89-a78bbe13dc39"
+                },
+                "cover": {
+                    "name": "Alarm05.wav",
+                    "url": "https://youtu.be/I5_k9QFq3M8"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.bytebeat.cloud/post/ee00a4cf-42e9-4614-9983-7a0824558084",
+                "date": "May 28, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "PrincessPriscillaPT1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "\"ERROR 01\" remixed",
+                "cover": {
+                    "name": "PortalCraftDash Studio 20 - ERROR 01",
+                    "url": "https://www.youtube.com/watch?v=_cw0StSleGA"
+                },
+                "mode": "Floatbeat",
+                "url": "https://www.bytebeat.cloud/post/12136e22-69b2-4ee3-9d74-58e0a06a3716",
+                "date": "Jun 04, 2026",
+                "sampleRate": 48000,
+                "file": "PrincessPriscillaPT0.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "Decent-Manager-6169",
+        "children": [
+            {
+                "name": "Badly Accurate xsync3d - Running out of Memory",
+                "cover": {
+                    "name": "xsync3d - Running out of Memory",
+                    "url": "https://youtu.be/ph58ZqupcKc"
+                },
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/520.html#3144",
+                "date": "Mar 19, 2024",
+                "sampleRate": 35498.667,
+                "file": "decentmanager3.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "У батарей thingy",
+                "cover": {
+                    "name": "nyan.mp3 — У батарей",
+                    "url": "https://youtu.be/i157ibQEoJo"
+                },
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/520.html#5641",
+                "date": "Mar 14, 2025",
+                "sampleRate": 33860.266,
+                "stereo": true,
+                "file": "decentmanager7.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "5",
+                "mode": "Floatbeat",
+                "url": [
+                    "https://dollchan.net/btb/res/520.html#5835",
+                    "https://ihsoyct.github.io/index.html?comments=1jv8xl2&backend=artic_shift"
+                ],
+                "date": "Apr 9, 2025",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "decentmanager6.js",
+                "fileOriginal": true,
+                "fileMinified": true
+            }
+        ]
+    },
+    {
+        "author": "MarioFan171",
+        "children": [
+            {
+                "name": "VYTRAX",
+                "remix": {
+                    "author": "Decent-Manager-6169",
+                    "name": "another useless4 dear vienna or something",
+                    "url": "https://dollchan.net/btb/res/520.html#2676"
+                },
+                "url": "https://dollchan.net/btb/res/520.html#3380",
+                "date": "Apr 26, 2024",
+                "sampleRate": 44100,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MarioFan171-9.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "13TK",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1o9ngj1/13tk/",
+                "date": "Oct 18, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "MarioFan171-4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "NUCLEAR::JUNGLE",
+                "remix": {
+                    "author": "PrincessPriscillaPT",
+                    "name": "Sunlit Streets of Manehattan",
+                    "url": "https://www.bytebeat.cloud/post/c882e727-cc0b-46c5-9ce6-ac7d4c020ca2"
+                },
+                "url": "https://www.bytebeat.cloud/post/2fd1c6fc-105b-47ec-937a-c9c4ef2c7257",
+                "date": "Feb 02, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MF171-5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Hargašame wecere alin (Warm Chords)",
+                "description": "submission for BytebeatCloud's #week23 challenge (Hot or cold)",
+                "remix": {
+                    "author": "MarioFan171",
+                    "name": "DKC Scorch n' Torch - EDM Remix",
+                    "url": "https://dollchan.net/btb/res/2971.html#4130"
+                },
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1qwc02m/historical_fish_out_of_the_water/",
+                    "https://www.bytebeat.cloud/post/28751f31-ac08-4d9a-98a4-916eadfefded"
+                ],
+                "date": "Feb 04, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MF171-4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Made this remix of Saisa Gabtara Ucun using my name wavetable",
+                "remix": {
+                    "author": "PrincessPriscillaPT",
+                    "name": "Wavetable Creator",
+                    "url": "https://dollchan.net/btb/res/7164.html#12574"
+                },
+                "url": "https://dollchan.net/btb/res/7164.html#12611",
+                "date": "Feb 10, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "mariofan171.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Moonlit Streets of Violeta (19-EDO)",
+                "remix": {
+                    "author": "YouLikeHaveMaterials87",
+                    "name": "Moonlit Alley",
+                    "url": "https://www.bytebeat.cloud/post/3026546d-2270-447d-9530-bfc5125d7129"
+                },
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1roua3n/moonlit_streets_of_violeta_19edo/",
+                    "https://www.bytebeat.cloud/post/2031e1a9-1734-422e-a8e1-8a8bbb5b547e",
+                    "https://dollchan.net/btb/res/2971.html#13674"
+                ],
+                "date": "Mar 09, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MarioFan171-8.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "ANYANWU",
+                "description": "submission for BytebeatCloud's #week14 challenge (Drone)",
+                "remix": {
+                    "author": "Zackx",
+                    "name": "ver2",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/comment/lm8vqhu/"
+                },
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1ru59qy/anyanwu/",
+                    "https://www.bytebeat.cloud/post/63344fff-7bbe-45ba-9750-9faf6217ef02",
+                    "https://dollchan.net/btb/res/2971.html#13675"
+                ],
+                "date": "Mar 15, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MarioFan171-6.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "ANYANWU - Нуғайбәк Ремикс",
+                "description": "submission for BytebeatCloud's #week14 challenge (Drone)",
+                "remix": {
+                    "author": "MarioFan171",
+                    "name": "ANYANWU",
+                    "url": "https://www.reddit.com/r/bytebeat_2/comments/1ru59qy/anyanwu/"
+                },
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1ru59qy/comment/oavtltz/",
+                    "https://www.bytebeat.cloud/post/3e8704d0-3640-4320-9b6c-de4b6b782e3d"
+                ],
+                "date": "Mar 17, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MarioFan171-7.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "PRAXIS",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1ryvpg5/praxis/",
+                    "https://www.bytebeat.cloud/post/478e0a0c-79ec-4d96-ac09-167f2e094fab",
+                    "https://dollchan.net/btb/res/2971.html#13675"
+                ],
+                "date": "Mar 20, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MarioFan171-5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "KRONOS",
+                "description": "winner of BytebeatCloud's #week15 challenge (Clock ticking)",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1s0def3/kronos/",
+                    "https://www.bytebeat.cloud/post/81e25c25-bd21-4d06-a34a-d02e1e6ee347",
+                    "https://dollchan.net/btb/res/2971.html#13682"
+                ],
+                "date": "Mar 22, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MarioFan171-3.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "TLALOC",
+                "description": "submission for BytebeatCloud's #week16 challenge (Layered)",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1s7kh5w/tlaloc/",
+                    "https://www.bytebeat.cloud/post/7297b99b-9730-4cb3-a72f-5144a16a6124",
+                    "https://dollchan.net/btb/res/2971.html#13675"
+                ],
+                "date": "Mar 30, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "mariofan171-2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Hitler's a Stoner",
+                "remix": {
+                    "author": "ccret2022",
+                    "name": "frodo and the magic weed",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/14je5fs/frodo_and_the_magic_weed/"
+                },
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1sqci0n/hitlers_a_stoner/",
+                "date": "Apr 20, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MF171-1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Banjin i Ucun (Complextro Mix)",
+                "url": [
+                    "https://www.bytebeat.cloud/post/3e0e84fe-4cad-4335-80b9-330cf3f58617",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1tr05pu/banji_i_ucun_complextro_mix_repost/"
+                ],
+                "date": "May 29, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MF171-2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "WEIRDTECH",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "e",
+                    "url": "https://www.bytebeat.cloud/post/239e64ad-2d13-49ce-be9e-88274bcc3d7d"
+                },
+                "url": [
+                    "https://www.bytebeat.cloud/post/76e30ad9-437d-4b78-b8e7-4155e1d01fdb",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1trsdbt/weirdtech_repost/"
+                ],
+                "date": "May 30, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MF171-0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "༉‧₊˚. ａｎｙｓａ °❈° ｂｒｅａｋｃｏｒｅ",
+                "description": "winner of BytebeatCloud's #week25 challenge (Tension)",
+                "url": [
+                    "https://www.bytebeat.cloud/post/51fb5473-b9e0-4697-b5be-83934f71a4cb",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1tsrmum/%EF%BD%81%EF%BD%8E%EF%BD%99%EF%BD%93%EF%BD%81_%EF%BD%82%EF%BD%92%EF%BD%85%EF%BD%81%EF%BD%8B%EF%BD%83%EF%BD%8F%EF%BD%92%EF%BD%85_repost/"
+                ],
+                "date": "May 31, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "MF171.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "NewFall2020",
+        "name": "floatbeat test",
+        "cover": {
+            "name": "BonesYT - Superialer",
+            "url": "https://www.youtube.com/watch?v=bwoS7sjPiuc"
+        },
+        "mode": "Floatbeat",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1f3ifsh/floatbeat_test/",
+        "date": "Aug 28, 2024",
+        "sampleRate": 64000,
+        "file": "newfall2.js",
+        "fileOriginal": true
+    },
+    {
+        "author": "Sychamis",
+        "children": [
+            {
+                "name": "Can you Feel",
+                "cover": {
+                    "name": "Torchkas - Can You Feel [spc700]",
+                    "url": "https://www.youtube.com/watch?v=scs_V8S8dOk"
+                },
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/1gkjj25/can_you_feel/",
+                    "https://www.youtube.com/watch?v=LtXTY5Wcb6E",
+                    "https://gist.githubusercontent.com/Sychamis/19a3696f012b8ce3e2d55127535d2cf5/raw/2195a5ef12e0b006e4aa24a1098e50b1fa6cc9e1/can_you_feel-btb.js"
+                ],
+                "date": "Nov 05, 2024",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "Sychamis3.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "TheFatRat - Unity",
+                "cover": {
+                    "name": "TheFatRat - Unity",
+                    "url": "https://www.youtube.com/watch?v=n8X9_MgEdCg"
+                },
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/1iu68im/thefatrat_unity/",
+                    "https://youtu.be/zTSe_qk9gaw"
+                ],
+                "date": "Feb 20, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "Sychamis4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "A demo, in bytebeat?",
+                "description": "this works best on linux and firefox.",
+                "url": [
+                    "https://youtu.be/HDx-vCwbQt0",
+                    "https://youtu.be/C_i3Rog17JY",
+                    "https://demozoo.org/productions/371257/"
+                ],
+                "date": "Apr 20, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "Sychamis2.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "troubleshootcorps",
+        "children": [
+            {
+                "name": "immersion",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1hy1pe3/immersion/",
+                "date": "Jan 10, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps8.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "them bytes be dancin",
+                "remix": {
+                    "author": "raphaelgoulart",
+                    "name": "1k dance",
+                    "url": "https://battleofthebits.com/arena/Entry/1k+dance/31132/"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1llji9a/them_bytes_be_dancin/",
+                "date": "Jun 26, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps6.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "idk what genre this is",
+                "remix": {
+                    "author": "Decent-Manager-6169",
+                    "name": "Synthwave Type Chord",
+                    "url": "https://dollchan.net/btb/res/520.html#8230"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1m71zef/idk_what_genre_this_is/",
+                "date": "Jul 23, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "hyper hexagonest",
+                "cover": {
+                    "name": "Chipzel - Focus",
+                    "url": "https://www.youtube.com/watch?v=wD3j1O1XHQY"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1mlocuf/hyper_hexagonest/",
+                "date": "Aug 09, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "pls give pcm sample",
+                "cover": {
+                    "name": "Yeah Yeah Yeahs - Heads Will Roll",
+                    "url": "https://www.youtube.com/watch?v=auzfTPp4moA"
+                },
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1mufxrl/pls_give_pcm_sample_wip/",
+                "date": "Aug 19, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "akimbo",
+                "cover": {
+                    "name": "NightHawk22 - Isolation",
+                    "url": "https://youtu.be/X8n-ELYClDA"
+                },
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1n4tnd4/akimbo/",
+                "date": "Aug 31, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps7.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Sagittarius A",
+                "remix": {
+                    "author": "eSlashMachine",
+                    "name": "infernal gaze wip",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1mujdf1/infernal_gaze_wip/"
+                },
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1o30oli/sagittarius_a/",
+                "date": "Oct 10, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps1.js",
+                "fileOriginal": true
+            },
+            {
+                "cover": {
+                    "name": "Cats are Liquid - A Better Place - Lighter Atmosphere",
+                    "url": "https://www.youtube.com/watch?v=3r09dZ7pzrQ"
+                },
+                "name": "brighter surroundings",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1okhem3/brighter_surroundings/",
+                "date": "Oct 30, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps0.js",
+                "fileOriginal": true
+            },
+            {
+                "cover": {
+                    "name": "HOME - Resonance",
+                    "url": "https://www.youtube.com/watch?v=8GW6sLrK40k"
+                },
+                "name": "the home is resonating",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1pj0rvt/the_home_is_resonating/",
+                "date": "Dec 10, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "mode": "Floatbeat",
+                "file": "troubleshootcorps.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "feeshbread",
+        "name": "6th Wave",
+        "mode": "Floatbeat",
+        "url": [
+            "https://www.reddit.com/r/bytebeat/comments/1io5qmi/6th_wave_my_entry_for_bytebattle_season_3/",
+            "https://bytebeat.oops.wtf/season3/entries.html"
+        ],
+        "date": "Feb 12, 2025",
+        "sampleRate": 48000,
+        "stereo": true,
+        "file": "feeshbread.js",
+        "fileOriginal": true
+    },
+    {
+        "author": "ProcessedGradient",
+        "children": [
+            {
+                "name": "synthesizer thingbleugh",
+                "url": "https://dollchan.net/btb/res/5350.html#8301",
+                "date": "Jul 19, 2025",
+                "mode": "Floatbeat",
+                "sampleRate": 44100,
+                "file": "TI3699.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "lankku",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1n9xngk/a/",
+                "date": "Sep 06, 2025",
+                "mode": "Floatbeat",
+                "sampleRate": 32000,
+                "file": "TI3699-2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "tuff ahh beat 🥀🥀",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1o256ln/tuff_ahh_beat/",
+                "date": "Oct 09, 2025",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "file": "TI3699-5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "The Nice One",
+                "url": "https://www.bytebeat.cloud/post/e65b6b21-b361-462d-a304-a88827bf75ce",
+                "date": "Mar 24, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 44100,
+                "file": "TI3699-6.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "aniruF",
+        "name": "wavetapper instrumental",
+        "cover": {
+            "name": "Frums - Wavetapper",
+            "url": "https://youtu.be/-lRPEny5jug"
+        },
+        "url": "https://dollchan.net/btb/res/5289.html#8893",
+        "date": "Aug 21, 2025",
+        "sampleRate": 32000,
+        "mode": "Floatbeat",
+        "file": "aniruF2.js",
+        "fileOriginal": true
+    },
+    {
+        "author": "ameen272",
+        "children": [
+            {
+                "name": "Remix of Nothing Is Real",
+                "remix": {
+                    "author": "Two2Fall",
+                    "name": "Nothing is real",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1gzwwdr/i_finished_my_song_for_the_bytebattle_season_2/"
+                },
+                "date": "Aug 26, 2025",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1n0tk8o/remix_of_nothing_is_real/",
+                "sampleRate": 48000,
+                "file": "ameen0.js",
+                "fileOriginal": true,
+                "mode": "Floatbeat"
+            },
+            {
+                "name": "Remix of NIR",
+                "remix": {
+                    "author": "Two2Fall",
+                    "name": "Nothing is real",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1gzwwdr/i_finished_my_song_for_the_bytebattle_season_2/"
+                },
+                "date": "Nov 03, 2025",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1ont8pt/remix_of_nir/",
+                "sampleRate": 24000,
+                "file": "ameen3.js",
+                "fileOriginal": true,
+                "mode": "Floatbeat"
+            },
+            {
+                "cover": {
+                    "name": "Two2Fall - Melancholic Dreams",
+                    "url": "https://www.reddit.com/r/Beepbox/comments/1mvqtyh/beautiful_melancholic_dreams/"
+                },
+                "name": "Cover of Melancholic Dreams",
+                "stereo": true,
+                "date": "Jan 25, 2026",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1qmjhk6/comment/o1pv7r1/",
+                "sampleRate": 48000,
+                "file": "ameen.js",
+                "fileOriginal": true,
+                "mode": "Floatbeat"
+            },
+            {
+                "name": "Array sample system demo/Proof of concept",
+                "date": "Jan 25, 2026",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1r9wocl/array_sample_system_demoproof_of_concept/",
+                "sampleRate": 48000,
+                "file": "ameen2.js",
+                "fileOriginal": true,
+                "mode": "Floatbeat"
+            }
+        ]
+    },
+    {
+        "author": "Chasyxx",
+        "name": "THE UNICODE SHOW",
+        "url": "https://www.reddit.com/r/bytebeat_2/comments/1ngbns9/the_unicode_show/",
+        "date": "Sep 13, 2025",
+        "mode": "Floatbeat",
+        "file": "chasyxx3.js",
+        "fileOriginal": true
+    },
+    {
+        "author": "UltraDasher965",
+        "children": [
+            {
+                "name": "Complex step sequencer (stereo)",
+                "remix": {
+                    "author": "neverforgettoleave",
+                    "name": "simple step sequencer",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/jmbsoh/simple_step_sequencer/"
+                },
+                "date": "Oct 11, 2025",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1o3t6j0/complex_step_sequencer_stereo/",
+                "stereo": true,
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "UD965.js",
+                "fileOriginal": true,
+                "fileMinified": true
+            },
+            {
+                "name": "\"bone\"iris moment",
+                "remix": {
+                    "author": "MarioFan171",
+                    "name": "OSIRIS",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1c66gmx/osiris_floatbeat/"
+                },
+                "date": "Oct 20, 2025",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1obp3i4/boneiris_moment_os_means_bone_in_my_language/",
+                "sampleRate": 44100,
+                "mode": "Floatbeat",
+                "file": "UD965-2.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "newmemesfromsnapchat",
+        "children": [
+            {
+                "name": "FMbreak",
+                "remix": {
+                    "author": "RealZynx92",
+                    "name": "i bet nobody has thought of using cbrt",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/skg4b7/i_bet_nobody_has_thought_of_using_cbrt/"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1ocsaj8/fmbreak/",
+                "date": "Oct 21, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "newmemesfromsnapchat2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Fm𝐃𝐚𝐧𝐜𝐞",
+                "remix": {
+                    "author": "raphaelgoulart",
+                    "name": "1k dance",
+                    "url": "https://battleofthebits.com/arena/Entry/1k+dance/31132/"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1oeu7yp/fm%F0%9D%90%83%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%9E/",
+                "date": "Oct 24, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "newmemesfromsnapchat0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Pianosless sequence",
+                "remix": {
+                    "author": "Decent-Manager-6169",
+                    "name": "Useless8 (Useless1 Sequel)",
+                    "url": "https://dollchan.net/btb/res/520.html#2931"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1p0bfln/pianosless_sequence/",
+                "date": "Nov 18, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "newmemesfromsnapchat5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "New drums made by me",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1sbbzpy/new_drums_made_by_me/",
+                "date": "Apr 03, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "newmemesfromsnapchat1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Updated, Added Px / 8-bit drum",
+                "remix": {
+                    "author": "newmemesfromsnapchat",
+                    "name": "New drums made by me",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1sbbzpy/new_drums_made_by_me/"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1scta3i/updated_added_px_8bit_drum/",
+                "date": "Apr 04, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "file": "newmemesfromsnapchat4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "recreation of \"I'm talking to you! Ft.UTAU teto\"",
+                "cover": {
+                    "name": "ぴーなた - I’m talking to you! ft.UTAU teto",
+                    "url": "https://www.youtube.com/watch?v=V4elF7---KQ"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1svrndv/done_might_be_laggy_for_low_end_devices/",
+                "date": "Apr 25, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "newmemesfromsnapchat3.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "ØMEGA 777",
+        "remix": {
+            "author": "D3nschøt",
+            "name": "idk a keyboard",
+            "url": "https://www.reddit.com/r/bytebeat/comments/1hhija9/idk_a_keyboard/"
+        },
+        "name": "Keyboard",
+        "url": "https://dollchan.net/btb/res/7164.html#10359",
+        "date": "Nov 03, 2025",
+        "sampleRate": 48000,
+        "stereo": true,
+        "mode": "Floatbeat",
+        "file": "omega.js",
+        "fileOriginal": true
+    },
+    {
+        "author": "insanity696420",
+        "children": [
+            {
+                "name": "Winter Days",
+                "description": "\"its winter, and its raining snow, 0° outside, you get your blanket, rest, and watch tv.\"",
+                "date": "Dec 11, 2025",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1pk3uux/winter_days/",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "sinus and exponential 2",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "sinus and exponential",
+                    "url": "https://www.bytebeat.cloud/post/b198aa88-fa77-46e9-a37e-610241de7242"
+                },
+                "url": [
+                    "https://www.bytebeat.cloud/post/50dbaa3c-5b84-4662-9dfd-f9255fbf8559",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1qigpnw/sinus_and_exponential_2/"
+                ],
+                "mode": "Floatbeat",
+                "date": "Jan 20, 2026",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "insanity16.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "oh how heavenly",
+                "url": [
+                    "https://www.bytebeat.cloud/post/237d863a-0938-40a4-82c2-ad65ef784786",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1qmnssn/oh_how_heavenly_insanity/"
+                ],
+                "mode": "Floatbeat",
+                "date": "Jan 25, 2026",
+                "sampleRate": 44100,
+                "stereo": true,
+                "file": "insanity15.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "sinus and... drums?",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "sinus and exponential",
+                    "url": "https://www.bytebeat.cloud/post/b198aa88-fa77-46e9-a37e-610241de7242"
+                },
+                "url": [
+                    "https://www.bytebeat.cloud/post/07084444-6af3-4fd4-933d-bb1f00b95fcc",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1qrcksq/e_sin_again/"
+                ],
+                "mode": "Floatbeat",
+                "date": "Jan 31, 2026",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "insanity3.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "edge of the omniverse",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "Edge Of The Universe",
+                    "url": "https://ihsoyct.github.io/index.html?comments=1obsck6"
+                },
+                "url": "https://www.bytebeat.cloud/post/72e098c1-c800-45c7-9272-8e2f1fd73357",
+                "mode": "Floatbeat",
+                "date": "May 03, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity6.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "ahum",
+                "description": "submission for BytebeatCloud's #week21 challenge (Mechanical)",
+                "url": "https://www.bytebeat.cloud/post/b275f538-b736-4666-8533-0df0a211fe1c",
+                "mode": "Floatbeat",
+                "date": "May 08, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity7.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "ok",
+                "remix": {
+                    "author": "Carrot-Guy",
+                    "name": "idk",
+                    "url": "https://www.bytebeat.cloud/post/1c5f366f-2ba7-4ae7-ba11-ebd8474b709d"
+                },
+                "url": [
+                    "https://www.bytebeat.cloud/post/648017a7-4dee-4eca-bfb4-880b16bd4eb6",
+                    "https://www.reddit.com/r/bytebeat/comments/1tqgzbv/lock_in_on_the_bytebeats_guys/"
+                ],
+                "mode": "Floatbeat",
+                "date": "May 25, 2026",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "insanity5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "ministic definitions",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "e",
+                    "url": "https://www.bytebeat.cloud/post/239e64ad-2d13-49ce-be9e-88274bcc3d7d"
+                },
+                "url": "https://www.bytebeat.cloud/post/7d0cab6d-d18b-4baf-8361-dd00feb77b2a",
+                "mode": "Floatbeat",
+                "date": "May 30, 2026",
+                "sampleRate": 40000,
+                "stereo": true,
+                "file": "insanity1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "totoful",
+                "description": "submission for BytebeatCloud's #week25 challenge (Tension)",
+                "remix": {
+                    "author": "Two2Fall",
+                    "name": "Nothing is real",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1gzwwdr/i_finished_my_song_for_the_bytebattle_season_2/"
+                },
+                "url": "https://www.bytebeat.cloud/post/74ef45e6-917a-4179-b2ea-de24d9dbd28a",
+                "mode": "Floatbeat",
+                "date": "Jun 02, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "minifier madness",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "minified moment",
+                    "url": "https://dollchan.net/btb/res/2628.html#4643"
+                },
+                "mode": "Floatbeat",
+                "date": "Jun 08, 2026",
+                "sampleRate": 42800,
+                "stereo": true,
+                "file": "insanity8.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "i dont know what i am doin",
+                "remix": {
+                    "author": "Carrot-Guy",
+                    "name": "chiptune mix v2.1",
+                    "url": "https://www.bytebeat.cloud/post/25218483-a1ba-44e8-ae81-591237f85a87"
+                },
+                "url": "https://www.bytebeat.cloud/post/1e39b57c-7451-44d2-8e7b-52aea081574f",
+                "mode": "Floatbeat",
+                "date": "Jun 16, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity9.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "this and that",
+                "url": "https://www.bytebeat.cloud/post/e40392fa-2f93-4dee-b975-9fc70d0aed7d",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "sinus and exponential",
+                    "url": "https://www.bytebeat.cloud/post/b198aa88-fa77-46e9-a37e-610241de7242"
+                },
+                "mode": "Floatbeat",
+                "date": "Jun 24, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "thinkerER",
+                "url": "https://www.bytebeat.cloud/post/db0a5d82-78f2-44a0-8e9a-1879d19e4f79",
+                "remix": {
+                    "author": "greenandyellowcatjuice",
+                    "name": "fehhem on a fork",
+                    "url": "https://www.bytebeat.cloud/post/6c9b5179-7e44-4024-a2f8-327cb5d5f285"
+                },
+                "mode": "Floatbeat",
+                "date": "Jun 26, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity10.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "carrotguytity",
+                "url": "https://www.bytebeat.cloud/post/c30617c6-445e-4361-a2da-4681f21e0051",
+                "remix": {
+                    "author": "Carrot-Guy",
+                    "name": "insanitity",
+                    "url": "https://www.bytebeat.cloud/post/7e762f5a-1f75-44d9-add3-699f09b0c363"
+                },
+                "mode": "Floatbeat",
+                "date": "Jun 26, 2026",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "insanity12.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "wgfdsgsdgsdfgw4rf",
+                "description": "submission for BytebeatCloud's #week29 challenge (Echo chamber)",
+                "url": "https://www.bytebeat.cloud/post/000d56af-ce43-4b2d-a8fb-9fe0a5041c38",
+                "mode": "Floatbeat",
+                "date": "Jun 27, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity11.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "version null",
+                "description": "submission for BytebeatCloud's #week29 challenge (Echo chamber)",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "version 2",
+                    "url": "https://www.bytebeat.cloud/post/acebf873-30a3-4682-90f5-99f7c66548a3"
+                },
+                "url": [
+                    "https://www.bytebeat.cloud/post/15bf9fbd-4ef2-411b-ba66-694be01deb4a",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1uireqp/version_null/"
+                ],
+                "mode": "Floatbeat",
+                "date": "Jun 29, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity13.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "version undefined",
+                "description": "submission for BytebeatCloud's #week29 challenge (Echo chamber)",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "version null",
+                    "url": "https://www.bytebeat.cloud/post/15bf9fbd-4ef2-411b-ba66-694be01deb4a"
+                },
+                "url": "https://www.bytebeat.cloud/post/0ba302bf-a3b3-4deb-a34d-81713bd74216",
+                "mode": "Floatbeat",
+                "date": "Jun 29, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity14.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "whatever this is",
+                "mode": "Floatbeat",
+                "date": "Jun 30, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity18.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "unespected",
+                "url": "https://www.bytebeat.cloud/post/e945d4e2-e0f9-4f9e-9b04-cfbefbc98c23",
+                "remix": {
+                    "author": "BaenHoHoHo",
+                    "name": "remixing my own bytebeat ig?",
+                    "url": "https://dollchan.net/btb/res/117.html#8933"
+                },
+                "mode": "Floatbeat",
+                "date": "Jul 06, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity17.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "infustation",
+                "url": "https://www.bytebeat.cloud/post/81bac4bf-e15b-4e43-9945-12f28c26b7bd",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "s̷o̶m̶e̵t̶h̶i̷n̷g̸ ̸i̴s̷ ̵w̵r̶o̸n̸g̴",
+                    "url": "https://www.bytebeat.cloud/post/e97ad3b9-44c7-487f-be21-b55e6c4511dd"
+                },
+                "mode": "Floatbeat",
+                "date": "Jul 06, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity20.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "TURN_UP_THE_INSANITY",
+                "url": "https://www.bytebeat.cloud/post/4427a2a1-c1b8-4bdf-ba04-61e24e2c1928",
+                "remix": {
+                    "author": "MarioFan171",
+                    "name": "TURN_UP_THE_BASS",
+                    "url": "https://www.bytebeat.cloud/post/4e7c8351-cd02-4b91-8056-44aff1616c01"
+                },
+                "mode": "Floatbeat",
+                "date": "Jul 08, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity21.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "version panic!()",
+                "url": [
+                    "https://www.bytebeat.cloud/post/b4cd0743-54d2-4502-bea2-4c1f8e993c9c",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1v3deno/version_panic_repost_from_bytebeatcloud/"
+                ],
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "version null",
+                    "url": "https://www.bytebeat.cloud/post/15bf9fbd-4ef2-411b-ba66-694be01deb4a"
+                },
+                "mode": "Floatbeat",
+                "date": "Jul 17, 2026",
+                "sampleRate": 44100,
+                "stereo": true,
+                "file": "insanity22.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "fm chords",
+                "url": "https://www.bytebeat.cloud/post/7e850068-85f3-4515-b2ea-d4a4c2eefa8b",
+                "mode": "Floatbeat",
+                "date": "Jul 23, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity19.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "pck404",
+        "children": [
+            {
+                "name": "morale incident",
+                "url": "https://www.bytebeat.cloud/post/8aac616f-5981-44bc-b7bd-d8e6ddcd3ac7",
+                "date": "Dec 13, 2025",
+                "sampleRate": 44100,
+                "mode": "Floatbeat",
+                "file": "pck404-0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "momentum presence",
+                "url": "https://www.bytebeat.cloud/post/447ebb36-fc8e-47e8-9a0c-d7183cd9d877",
+                "date": "Dec 13, 2025",
+                "mode": "Floatbeat",
+                "file": "pck404.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "rêverie subaquatique (stereo)",
+                "remix": {
+                    "author": "pck404",
+                    "name": "rêverie subaquatique",
+                    "url": "https://www.bytebeat.cloud/post/9fb8de73-8167-4330-adf0-9e21e7f01ac0"
+                },
+                "url": "https://www.bytebeat.cloud/post/9b22a621-3b05-4fa6-b9d2-60b1f9b690e5",
+                "date": "Dec 26, 2025",
+                "mode": "Floatbeat",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "pck404-2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "D̠͍̿̄͂̇ͪa̱͔̟̼ͧr̥̖͔͕̿ͦͯ͌̀ḵ̼̤̹̽̓ ̌͋́r̲̗͖̅͗̆i̭̝͇̿t̺͉̺̭͒̉u͕̞a͊͊l̘͂͐",
+                "description": "winner of BytebeatCloud's #week3 challenge (Distortion)",
+                "url": "https://www.bytebeat.cloud/post/a31a5e2d-131a-478a-a7a7-0a660905e24d",
+                "date": "Dec 28, 2025",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "pck404-3.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Lullaby",
+                "url": "https://www.bytebeat.cloud/post/e457b3ce-b16d-4909-9a47-a7ce5797ca0d",
+                "date": "Jan 02, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "file": "pck404-4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "circular habits",
+                "description": "submission for BytebeatCloud's #week4 challenge (Polyrhythm)",
+                "url": "https://www.bytebeat.cloud/post/1055f146-783d-4331-b9ae-92f0c2f467a7",
+                "date": "Jan 06, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "sampleRate": 48000,
+                "file": "pck404-5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Home (Music Box) from UNDERTALE",
+                "cover": {
+                    "name": "Toby Fox - Home (Music Box)",
+                    "url": "https://www.youtube.com/watch?v=vC1GAZ62NPg"
+                },
+                "url": "https://www.bytebeat.cloud/post/926f5273-5241-4e0a-a174-32ba9054b131",
+                "date": "Feb 07, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "sampleRate": 48000,
+                "file": "pck404-6.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "ccret2022",
+        "children": [
+            {
+                "name": "DRIFTING THROUGH SUBSPACE",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1rz5eap/drifting_through_subspace/",
+                "date": "Mar 20, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "sampleRate": 48000,
+                "file": "ccret.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "A moon in a night sky devoid of stars.",
+                "remix": {
+                    "author": "WoolWL",
+                    "name": "Blue clouds",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1aoaafx/a_bunch_of_songs_i_made/"
+                },
+                "url": [
+                    "https://www.bytebeat.cloud/post/87ce3675-e714-484b-baf0-cc5a3b829f64",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1sjwpei/a_moon_in_a_night_sky_devoid_of_stars/"
+                ],
+                "date": "Apr 12, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "sampleRate": 48000,
+                "file": "ccret2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Boötes Void",
+                "remix": {
+                    "author": "ccret2022",
+                    "name": "RECURSIVE",
+                    "url": "https://www.bytebeat.cloud/post/286333b1-ea63-414b-a3fa-917a4cf1d33b"
+                },
+                "url": "https://www.bytebeat.cloud/post/1cf94999-4797-4487-b111-ab23fbf0ac90",
+                "date": "May 02, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "sampleRate": 44100,
+                "file": "ccret3.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "Inevitable_Poetry957",
+        "remix": {
+            "author": "Decent-Manager-6169",
+            "name": "please someone remix this",
+            "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+        },
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/comment/ocbg7r5/",
+        "date": "Mar 24, 2026",
+        "mode": "Floatbeat",
+        "sampleRate": 40000,
+        "file": "Inevitable_Poetry957.js",
+        "fileOriginal": true
+    },
+    {
+        "author": "Carrot-Guy (botbeat)",
+        "children": [
+            {
+                "name": "insanitity",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "carrotity",
+                    "url": "https://www.bytebeat.cloud/post/a801718d-a397-44a1-af73-ed0f72ee79c8"
+                },
+                "url": "https://www.bytebeat.cloud/post/7e762f5a-1f75-44d9-add3-699f09b0c363",
+                "date": "May 09, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "carrotguy0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "woah",
+                "remix": {
+                    "author": "Carrot-Guy",
+                    "name": "insanitity",
+                    "url": "https://www.bytebeat.cloud/post/7e762f5a-1f75-44d9-add3-699f09b0c363"
+                },
+                "url": "https://www.bytebeat.cloud/post/389bcae0-c47a-4949-9a43-a496bda965a9",
+                "date": "Jun 13, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 44100,
+                "stereo": true,
+                "file": "carrotguy2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "huh?",
+                "remix": {
+                    "author": "Two2Fall",
+                    "name": "Bored but at what point",
+                    "url": "https://www.bytebeat.cloud/post/bf51d036-29fd-4363-85f6-66f5f3e90976"
+                },
+                "url": "https://www.bytebeat.cloud/post/9a1e256a-16dc-4b39-9795-5ee0ebc51d35",
+                "date": "Jun 14, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "carrotguy1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "excavator",
+                "description": "winner of BytebeatCloud's #week32 challenge (Harmony)",
+                "url": "https://www.bytebeat.cloud/post/47cf29a6-ebf0-4626-9951-338ac2e73c24",
+                "date": "Jul 22, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "carrotguy.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "greenandyellowcatjuice",
+        "children": [
+            {
+                "name": "[ F R E E - P U L S E ]",
+                "url": "https://www.bytebeat.cloud/post/5fe8e97d-d063-452d-8ff9-a73fa8104fa2",
+                "date": "May 11, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "GAYCJ2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Anxious with reverb V3",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "anxious",
+                    "url": "https://dollchan.net/btb/res/2628.html#4982"
+                },
+                "url": "https://www.bytebeat.cloud/post/0bde066f-8855-4bd7-bc52-11106e976f19",
+                "date": "May 15, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "GAYCJ4.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "She made it and she won",
+                "description": "submission for BytebeatCloud's #week23 challenge (Hot or cold)",
+                "url": "https://www.bytebeat.cloud/post/d14c85de-3296-45f0-b885-30c5a602140a",
+                "date": "May 16, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "GAYCJ1.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "maybe",
+                "cover": {
+                    "name": "Stranger Things - Title Sequence",
+                    "url": "https://www.youtube.com/watch?v=-RcPZdihrp4"
+                },
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "something",
+                    "url": "https://www.bytebeat.cloud/post/d0345280-e597-41d8-9475-1ca84d355fa1"
+                },
+                "url": "https://www.bytebeat.cloud/post/4a49f25b-1497-4d58-b4b8-7cd636a163f8",
+                "date": "Jun 03, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "GAYCJ0.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "fehhem on a fork",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "fehhem",
+                    "url": "https://www.reddit.com/r/bytebeat_2/comments/1q8mjld/fehhem/"
+                },
+                "url": "https://www.bytebeat.cloud/post/6c9b5179-7e44-4024-a2f8-327cb5d5f285",
+                "date": "Jun 11, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "GAYCJ.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Still needs to be resonance to going home",
+                "cover": {
+                    "name": "HOME - Resonance",
+                    "url": "https://www.youtube.com/watch?v=8GW6sLrK40k"
+                },
+                "remix": {
+                    "author": "NixSaysHi",
+                    "name": "HOME - Resonance",
+                    "url": "https://www.bytebeat.cloud/post/d43faf3e-8691-4ca7-966e-eeb2492df653"
+                },
+                "url": "https://www.bytebeat.cloud/post/3bd9e865-9c68-47da-beea-8e1f9b652a6f",
+                "date": "Jun 13, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "GAYCJ3.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "Two2Fall",
+        "children": [
+            {
+                "name": "Really Amazing Dreams",
+                "url": "https://www.bytebeat.cloud/post/9be724a4-7cd6-41ac-8fda-c88ce9a313d4",
+                "date": "May 16, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "file": "two2fall9.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Cover of a Ultrabox's Song",
+                "description": "winner of BytebeatCloud's #week26 challenge (Alarm)",
+                "url": "https://www.bytebeat.cloud/post/7ed1689e-2e24-43d0-a662-378434b98d9d",
+                "date": "Jun 07, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "file": "two2fall8.js",
+                "fileOriginal": true
+            }
+        ]
+    },
+    {
+        "author": "KOIII7337",
+        "children": [
+            {
+                "name": "A Music With The \"clz32()\" Function",
+                "url": [
+                    "https://www.bytebeat.cloud/post/ef3ac6b9-af33-4ddb-ae5e-0e3325e66dc8",
+                    "https://www.reddit.com/r/bytebeat/comments/1u34sg9/a_music_with_the_clz32_function/"
+                ],
+                "date": "Jun 11, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 31750,
+                "file": "koiii7337.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Short Cover Of \"Dire, Dire Docks\" From \"Super Mario 64\"",
+                "cover": {
+                    "name": "Super Mario 64 - Dire, Dire Docks",
+                    "url": "https://www.youtube.com/watch?v=Zqa2mgjbOIM"
+                },
+                "url": [
+                    "https://www.bytebeat.cloud/post/a6d0f4df-0507-41cc-be94-3f83e89bb9ee",
+                    "https://www.reddit.com/r/bytebeat_2/comments/1u9c851/short_cover_of_dire_dire_docks_from_super_mario_64/"
+                ],
+                "date": "Jun 17, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "sampleRate": 33500,
+                "file": "koiii7337-2.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Cover of \"Super Mario Land - Easton Kingdom\"",
+                "cover": {
+                    "name": "Super Mario Land - Easton Kingdom (Underground)",
+                    "url": "https://youtu.be/n6qLIdmYfN4?si=TYNKnMY2xiyzdAvA"
+                },
+                "url": "https://www.bytebeat.cloud/post/2fb7b490-c2a9-4fa1-8e64-af12e3619603",
+                "date": "Jul 09, 2026",
+                "mode": "Floatbeat",
+                "stereo": true,
+                "sampleRate": 47500,
+                "file": "koiii7337-3.js",
+                "fileOriginal": true
+            }
+        ]
+    }
+]

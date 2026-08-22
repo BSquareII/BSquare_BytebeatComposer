@@ -1,0 +1,33 @@
+t?0:re=Array(nn=12288).fill(0),
+tracker=array=>(t||(i=0,N=1<<array[0][1]),
+t<N||(i<array.length-1||(i=-1),N+=1<<array[++i][1]),
+saw=n=>n,
+sine=n=>(sinf(n)+1)*g(array,i,2)/2,
+tri=n=>(asin(sinf(n))/PI*2+1)*g(array,i,2)/2,
+saw=n=>(n%256/128)*g(array,i,2)/2,
+square=n=>(n&128)/65*g(array,i,2)/2,
+o=n=>isNaN(n)?0:n,
+mute=n=>0,
+g=(a,b,c)=>b<a.length&&c<a[b].length?a[b][c]:undefined,
+n=a=>(k=eval(g(a,i,5)+"(o(t*2**((g(a,i,0)/12))/(256/g(a,i,2))%g(a,i,2)))"),g(a,i,4)?(k/256)*(-t>>(g(a,i,1)-8)&g(a,i,3)):k),
+g(array,i,5)==undefined?0:n(array)),
+f=[ // [pitch, duration, volume, decay volume, is decay on, waveform]
+  [0,14,255,255,1,"sine"],
+  [5,13,255,255,1,"mute"],
+  [3,13,255,255,1,"sine"],
+  [8,13,255,255,1,"sine"],
+  [7,12,255,255,1,"sine"],
+  [8,12,255,255,1,"sine"],
+  [7,13,255,255,1,"sine"],
+  [3,13,255,255,1,"sine"]
+],
+s=[ // [pitch, duration, volume, decay volume, is decay on, waveform]
+  [0,14,255,255,0,"tri"],
+  [5,14,255,255,0,"tri"],
+  [7,13,255,255,0,"tri"],
+  [3,14,255,255,0,"tri"],
+  [8,14,255,255,0,"tri"]
+],
+ev=(((tracker(f)+tracker(s)+(random())*60*"10101100"[t>>11&7])/2)/256)*((t>>8)>255?255:t>>8)+re[t%nn],
+re[t%nn]=ev/2,
+ev/1.7

@@ -1,0 +1,690 @@
+[
+    {
+        "author": "Madgarden",
+        "children": [
+            {
+                "name": "seargeant",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 56 * t 123 % /",
+                    "t 2 >> |",
+                    "t 6 >> |",
+                    "t 13 >> 3 % 1 +",
+                    "t 16 >> 5 % +",
+                    "t *",
+                    "DUP 13 + |",
+                    "^"
+                ]
+            },
+            {
+                "name": "splatterpiller",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 11 >> 1 &",
+                    "t 9 >> 1 & | 456 * t 10 >> +",
+                    "t 23 % t ^ &",
+                    "t 5 >> 8 % 1 + t 15 >> 33 & t *",
+                    "* t 5 >> & |",
+                    "t 56 * t 123 % / %",
+                    "t t * 4678 /",
+                    "t 12 >> 127 & % ^"
+                ]
+            },
+            {
+                "name": "rhythmgrind",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 34 ^",
+                    "t 67 | t 5 >> & |",
+                    "t 15 >> 9 & 1 + *",
+                    "2 * 0",
+                    "t 19 >> 3 & 8 SWAP -",
+                    "t SWAP >> -",
+                    "255 & + 2 / DUP"
+                ]
+            },
+            {
+                "name": "robot toothbrush",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 800 / 10 |",
+                    "t * 85 &",
+                    "t -",
+                    "t 4 / &"
+                ]
+            },
+            {
+                "name": "number station",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 67 | t 5 >> & |",
+                    "0 t 8 >> +",
+                    "255 & + 2 / DUP"
+                ]
+            },
+            {
+                "name": "guitarhead",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 5 * 3 >> t &",
+                    "t 4096 % 1024 < &",
+                    "t 12 >> 19 & 1 + 25 * PICK 208 % 3 *",
+                    "+ + 4 / 255 &",
+                    "DUP",
+                    "DUP",
+                    "4 *"
+                ]
+            },
+            {
+                "name": "pipe_symphony",
+                "url": "https://github.com/erlehmann/libglitch/blob/master/tracks/pipe_symphony.glitch",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 14 >> 5 % 5 +",
+                    "t 17 >> 2 %",
+                    "t 9 >> 3 % * +",
+                    "t 13 >> 4 % -",
+                    "t * 4 /",
+                    "DUP 5 + |",
+                    "t 17 >> 2 % 1 SWAP -",
+                    "t 5 >> * |"
+                ]
+            },
+            {
+                "name": "sadglitch",
+                "url": "https://github.com/erlehmann/libglitch/blob/master/tracks/sadglitch.glitch",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "4 4 9 8 9 6 4 2",
+                    "t ~ 12 >> 8 % PICK",
+                    "t * 2 *",
+                    "t 15 >> 3 % 1 + /",
+                    "DUP 5 * 3 / |",
+                    "t 99 % |",
+                    "t 7 >> 255 & DUP 128 < & +"
+                ]
+            },
+            {
+                "name": "barbarian",
+                "url": [
+                    "https://countercomplex.blogspot.com/2011/10/some-deep-analysis-of-one-line-music.html?showComment=1320185523164#c8205241663616732766",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/barbarian.glitch"
+                ],
+                "date": "Nov 01, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 8 >> 3 % 1 +",
+                    "t 13 >> 5 & 9 SWAP -",
+                    "t * 7 / *",
+                    "DUP 5 + ^",
+                    "t 6 >> |"
+                ]
+            },
+            {
+                "name": "glitch machine",
+                "url": [
+                    "https://www.youtube.com/watch?v=p_GqiL6zLiw&t=7s",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/glitch_machine.glitch",
+                    "https://soundcloud.com/madgarden/glitch-machine"
+                ],
+                "date": "Dec 06, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 16 >> 4 % 1 +",
+                    "t 10 >> 5 % 2 + +",
+                    "t 12 >> 3 % -",
+                    "t * 3 /",
+                    "DUP",
+                    "9 + |",
+                    "t 4 >> & 19 +",
+                    "t 12 >> 127 % ^"
+                ]
+            },
+            {
+                "name": "octo",
+                "url": [
+                    "https://www.youtube.com/watch?v=p_GqiL6zLiw&t=301s",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/octo.glitch"
+                ],
+                "date": "Dec 06, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 2 >> 20 % t *",
+                    "t 8192 % /",
+                    "t 8",
+                    "t 17 >> 3 % 1 + * /",
+                    "|",
+                    "t 14 >> 127 % ^",
+                    "32 -"
+                ]
+            },
+            {
+                "name": "wistful",
+                "url": [
+                    "https://www.youtube.com/watch?v=p_GqiL6zLiw&t=415s",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/wistful.glitch",
+                    "https://soundcloud.com/madgarden/wistful"
+                ],
+                "date": "Dec 06, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t t",
+                    "t 14 >> 4 % 5 +",
+                    "t 19 >> 1 & 1 + *",
+                    "10 * % /",
+                    "t 5 >> &",
+                    "t 17 >> 2 & -"
+                ]
+            },
+            {
+                "name": "bytescream",
+                "url": [
+                    "https://www.youtube.com/watch?v=p_GqiL6zLiw&t=551s",
+                    "https://soundcloud.com/madgarden/bytescream"
+                ],
+                "date": "Dec 06, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 10 >>",
+                    "t 5 * t + 7 >> &",
+                    "t *"
+                ]
+            },
+            {
+                "name": "starlost",
+                "url": [
+                    "https://www.youtube.com/watch?v=p_GqiL6zLiw&t=601s",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/starlost.glitch",
+                    "https://soundcloud.com/madgarden/starlost"
+                ],
+                "date": "Dec 06, 2011",
+                "mode": "postfix",
+                "codeOriginal": "t 255 % t 511 % ^ 3 *"
+            },
+            {
+                "name": "roboducky",
+                "url": [
+                    "https://soundcloud.com/madgarden/roboducky",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/roboducky.glitch"
+                ],
+                "date": "Dec 08, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 5 >> 2 t * 53 % *",
+                    "t 11 >> 9 & 1 + *",
+                    "t 4 >> |",
+                    "t 11 >> 19 & 1 + t * &",
+                    "t 17 >> 5 & 1 + *",
+                    "t 8 >> ^"
+                ]
+            },
+            {
+                "name": "sidewalk",
+                "url": [
+                    "https://soundcloud.com/madgarden/sidewalk",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/sidewalk.glitch"
+                ],
+                "date": "Dec 08, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 5 * t 9 >> &",
+                    "t 2 * t 5 >> &",
+                    "|",
+                    "t 17 >> 5 & t *",
+                    "t 4 >> | |"
+                ]
+            },
+            {
+                "name": "1916",
+                "url": "https://soundcloud.com/madgarden/1916-1",
+                "date": "Dec 08, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 10 >> 100 % 110 SWAP - t * 20 /",
+                    "t 10 >> 100 % 10 + t * 20 /",
+                    "-",
+                    "DUP 8 * ^",
+                    "t 7 >> |",
+                    "t 5 >> +",
+                    "t 14 >> 64 % ^"
+                ]
+            },
+            {
+                "name": "eerie arpeggio",
+                "url": [
+                    "https://soundcloud.com/madgarden/eerie-arpeggio",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/eerie_arpeggio.glitch"
+                ],
+                "date": "Dec 08, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 12 >> 10 & 1 +",
+                    "9 +",
+                    "t 140 / 4 & 1 + *",
+                    "t * 9 /",
+                    "DUP 9 + |",
+                    "t 6 >> | 32 -"
+                ]
+            },
+            {
+                "name": "barbarian2",
+                "remix": {
+                    "author": "Madgarden",
+                    "name": "barbarian",
+                    "url": "https://countercomplex.blogspot.com/2011/10/some-deep-analysis-of-one-line-music.html?showComment=1320185523164#c8205241663616732766"
+                },
+                "url": [
+                    "https://soundcloud.com/madgarden/barbarian2",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/barbarian2.glitch"
+                ],
+                "date": "Dec 08, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 8 >> 3 % 1 +",
+                    "t 13 >> 5 & 9 - * t * 9 /",
+                    "DUP 5 + ^",
+                    "t 6 >> |"
+                ]
+            },
+            {
+                "name": "query",
+                "url": [
+                    "https://soundcloud.com/madgarden/query",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/query.glitch"
+                ],
+                "date": "Dec 08, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 12 >> 1 & 6 * 3 +",
+                    "t 16 >> 3 % + t *",
+                    "DUP 3 * ^",
+                    "1 -",
+                    "t 4 >> |"
+                ]
+            },
+            {
+                "name": "42 forever",
+                "remix": {
+                    "name": "the 42 melody",
+                    "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+                },
+                "url": [
+                    "https://soundcloud.com/madgarden/42-forever",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/42_forever.glitch"
+                ],
+                "mode": "postfix",
+                "date": "Dec 08, 2011",
+                "codeOriginal": [
+                    "t 80000 + t 1024 % /",
+                    "t 5 >> | t 6 >> ^ 64 -",
+                    "t 12 >> 40",
+                    "t 18 >> 1 & *",
+                    "2 + & t * |",
+                    "67 ^"
+                ]
+            },
+            {
+                "name": "quiddit",
+                "url": [
+                    "https://soundcloud.com/madgarden/quiddit",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/quiddit.glitch"
+                ],
+                "date": "Dec 11, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "1006266214",
+                    "t 10 >> 16 % 1 + / 10 % t *",
+                    "t 16 >> 3 % 1 + *",
+                    "DUP",
+                    "9 PICK |",
+                    "t 5 >> t 7 >> ~ | +",
+                    "t 2 >> |"
+                ]
+            },
+            {
+                "name": "martians",
+                "url": [
+                    "https://soundcloud.com/madgarden/martians",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/martians.glitch"
+                ],
+                "date": "Dec 11, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 100 *",
+                    "t 128 / 100 % 1 + /",
+                    "t 6 >> |"
+                ]
+            },
+            {
+                "name": "factorii",
+                "url": [
+                    "https://soundcloud.com/madgarden/factorii",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/factorii.glitch"
+                ],
+                "date": "Dec 11, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "1234567890",
+                    "t 16 >> 15 & *",
+                    "t 10 >> 31 & >> 3 & 1 +",
+                    "t 17 >> 3 & 1 + * t * 3 *",
+                    "t 2 * t 5 >> | |",
+                    "t 5 >> + 128 +",
+                    "t 53 * t 123 % | 9",
+                    "t 19 >> 1 & 246 * + &",
+                    "t 3 >> |",
+                    "t 12 >> 1 &",
+                    "t 16 >> 1 & | *",
+                    "t 14 >> 1 & *",
+                    "^"
+                ]
+            },
+            {
+                "name": "creeping evil",
+                "url": "https://soundcloud.com/madgarden/creeping-evil",
+                "date": "Feb 08, 2012",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 12 >> 1 &",
+                    "t 10 >> 1 & | 1 -",
+                    "999999 t 1024 % / &",
+                    "t DUP 2 * | 1000 * 999 / |",
+                    "t 1019 % t 2049 % 666 *",
+                    "t 9 >> 333 & 666 + / ^ |",
+                    "t 10 >> - t 13 >> 127 & ^",
+                    "255 & 5 / + 5 * 6 / DUP"
+                ]
+            },
+            {
+                "name": "darkroad",
+                "url": "https://soundcloud.com/madgarden/darkroad",
+                "date": "Feb 09, 2012",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 1000 * 999",
+                    "t 1 >> 8 % - /",
+                    "t 17 >> 23 & 1 + *",
+                    "t 2 * t 2 >> & |",
+                    "t 3 * t 4 >> & |",
+                    "255 & + 2 / DUP"
+                ]
+            },
+            {
+                "name": "roboducky redux",
+                "remix": {
+                    "author": "Madgarden",
+                    "name": "roboducky",
+                    "url": "https://soundcloud.com/madgarden/roboducky"
+                },
+                "url": [
+                    "https://soundcloud.com/madgarden/roboducky-redux",
+                    "https://github.com/erlehmann/libglitch/blob/master/tracks/roboducky_redux.glitch"
+                ],
+                "date": "Feb 09, 2012",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 11 >> 19 & 1 + t *",
+                    "t 17 >> 5 & 1 + *",
+                    "99999 t 4095 & / ^",
+                    "DUP 5 / ^",
+                    "3 * 67 ^"
+                ]
+            },
+            {
+                "name": "roguebot",
+                "url": "https://soundcloud.com/madgarden/roguebot",
+                "date": "Mar 25, 2014",
+                "mode": "postfix",
+                "codeOriginal": "t 10 * t 15 >> 1 & 5 + / t 8 >> 127 & ^ t 20 >> 1 & t 19 >> 1 & ~ & 6 * 3 + * DUP 2 * | t 5 >> | t 3 >> t 17 >> 1 + 1 & * | t 4 >> t 18 >> 1 + 1 & * | t 11 >> 255 & - 255 & + 2 / DUP"
+            }
+        ]
+    },
+    {
+        "author": "Ey Pacha!",
+        "children": [
+            {
+                "name": "this != copla",
+                "url": "https://touchbit.xyz/",
+                "mode": "postfix",
+                "codeOriginal": "t 13 >> t ~ 12 >> | 7 % t * 96 &"
+            },
+            {
+                "name": "Just wait to t = 65535",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1hprcy6/just_wait_to_t_65535/",
+                "mode": "postfix",
+                "date": "Dec 30, 2024",
+                "codeOriginal": "t 65535 % 1232 % t ^ 127 % 3 / t 4 >> |"
+            },
+            {
+                "name": "RPM #2",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1htuvej/rpm_2/",
+                "mode": "postfix",
+                "date": "Jan 04, 2025",
+                "codeOriginal": "t 11 >> cos 9 * t * 128 & t 12 >> tan t * 64 & | t 3 >> |"
+            },
+            {
+                "name": "Just 17 tokens",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1hufu73/just_17_tokens/",
+                "mode": "postfix",
+                "date": "Jan 05, 2025",
+                "codeOriginal": "t 4 >> t 3 >> | t 2 * | t 4 * | .999 *"
+            },
+            {
+                "name": "something rhythmic",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1ie1sfl/something_rhythmic/",
+                "mode": "postfix",
+                "date": "Jan 30, 2025",
+                "codeOriginal": "t t t 14 >> 5 % 10 + >> 14 & >> t * 128 & t 5 >> >>"
+            },
+            {
+                "name": "Turn down the vol",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1ie2809/turn_down_the_vol/",
+                "mode": "postfix",
+                "date": "Jan 30, 2025",
+                "codeOriginal": "t t 4 >> t 3 >> | t 2 * | t 13 >> tan * 64 & 98 +"
+            },
+            {
+                "url": "https://www.reddit.com/r/bytebeat/comments/1igdkhz/t_9_42_17_7_t_2_161_t_4_t_8_46/",
+                "mode": "postfix",
+                "date": "Feb 02, 2025",
+                "codeOriginal": "t 9 >> 42 & 17 % 7 % t * 2 * 161 & t 4 >> | t 8 >> 46 & |"
+            }
+        ]
+    },
+    {
+        "author": "Scott (yorgle)",
+        "url": [
+            "https://web.archive.org/web/20120302005159/http://umlautllama.com/w2/?action=view&page=GlitchMachine",
+            "https://www.reddit.com/r/bytebeat/comments/n6psb/scotts_glitchmachine_sounds_and_stuff/"
+        ],
+        "children": [
+            {
+                "name": "Simple Sequencer",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "10 11 12 13",
+                    "t 11 >> 3 &",
+                    "PICK",
+                    "t *"
+                ]
+            },
+            {
+                "name": "Triangle Wave 1",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 10 *",
+                    "255 &",
+                    "DUP 128 < 1 & DUP",
+                    "2 PICK 2 * *",
+                    "1 PICK 0 = 1 &",
+                    "3 PICK ~ 2 * * |"
+                ]
+            },
+            {
+                "name": "Fancy Pattern",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": "t 777 % t | t -"
+            },
+            {
+                "name": "Spikeys",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": "t 2 * t 3 << >>"
+            },
+            {
+                "name": "Digital Static",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 2 / 7 *",
+                    "t 2 / 3 >> ^",
+                    "20 % 6 << 6 % 6 <<"
+                ]
+            },
+            {
+                "name": "Phaser",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t",
+                    "DUP 255 % 128 <",
+                    "1 PICK 2 * ^"
+                ]
+            },
+            {
+                "name": "Alarm",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 10 *",
+                    "DUP 255 % 128 <",
+                    "1 PICK 2 * ^"
+                ]
+            },
+            {
+                "name": "Looks Nifty",
+                "date": "Dec 09, 2011",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t",
+                    "255 % DUP *"
+                ]
+            }
+        ]
+    },
+    {
+        "author": "sansdetta",
+        "remix": [
+            {
+                "author": "Madgarden",
+                "name": "glitch machine",
+                "url": "https://www.youtube.com/watch?v=p_GqiL6zLiw&t=7s"
+            },
+            {
+                "author": "Gasman",
+                "name": "some kind of 80s synth type thing",
+                "url": "https://www.pouet.net/topic.php?which=8357&page=12#c389109"
+            }
+        ],
+        "url": "https://youtu.be/X_hX0od8kwU",
+        "date": "Feb 26, 2020",
+        "mode": "postfix",
+        "codeOriginal": [
+            "t 16 >> 4 % 1 +",
+            "t 10 >> 5 % 2 + +",
+            "t 12 >> 3 % -",
+            "t * 3 /",
+            "DUP",
+            "(t<<1)*[8/9,1,9/8,6/5,4/3,3/2,0][[0xd2d2c8,0xce4088,0xca32c8,0x8e4009][t>>14&3]>>(0x3dbe4688>>((t>>10&15)>9?18:t>>10&15)*3&7)*3&7]",
+            "DUP",
+            "9 + |",
+            "t 4 >> & 19 +",
+            "t 12 >> 127 % ^"
+        ]
+    },
+    {
+        "author": "ANoUserXD (BSquareII)",
+        "children": [
+            {
+                "name": "Postfix(RPN) test",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/1375qvr/postfixrpn_test/",
+                    "https://web.archive.org/web/20230519144944/https://www.reddit.com/r/bytebeat/comments/1375qvr/postfixrpn_test/"
+                ],
+                "date": "May 03, 2023",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 800 / 600 |",
+                    "t ^ * +"
+                ]
+            },
+            {
+                "url": [
+                    "https://www.reddit.com/r/bytebeat/comments/1ie4six/its_been_a_while_on_greggmans_html5_bytebeat/",
+                    "https://ihsoyct.github.io/index.html?comments=1ie4six"
+                ],
+                "date": "Jan 30, 2025",
+                "mode": "postfix",
+                "sampleRate": 11025,
+                "codeOriginal": "t [1,.89,.8,.75][t>>15&3] * .4 * -t 9 >> 3 & 1 + *  44 % -t 7 >> & -t 8 >> &"
+            },
+            {
+                "name": "alien communication signal",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "Postfix(RPN) test",
+                    "url": "https://web.archive.org/web/20230519144944/https://www.reddit.com/r/bytebeat/comments/1375qvr/postfixrpn_test/"
+                },
+                "date": "Jun 24, 2026",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 800 / 100 |",
+                    "t *",
+                    "t SWAP - &"
+                ]
+            },
+            {
+                "name": "alien spaceship ride",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "alien communication signal"
+                },
+                "date": "Jun 24, 2026",
+                "mode": "postfix",
+                "codeOriginal": [
+                    "t 900 / 800 |",
+                    "t *",
+                    "t SWAP - &",
+                    "255 % ^ DUP +"
+                ]
+            }
+        ]
+    },
+    {
+        "author": "insanity696420",
+        "children": [
+            {
+                "mode": "postfix",
+                "date": "Jun 16, 2026",
+                "codeOriginal": [
+                    "t t 10 >> *",
+                    "t 2 >>",
+                    "|",
+                    "255 & 2 /",
+                    "100000 t 4096 %",
+                    "/",
+                    "128 &",
+                    "+"
+                ]
+            },
+            {
+                "mode": "postfix",
+                "date": "Jun 22, 2026",
+                "codeOriginal": "t t 11 >> t 12 >> | 3 + * t t 12 >> t 11 >> ^ 15 & 1 + / sin 64 * >> 255 & t 4 >> & 100000 t 4096 % / +"
+            }
+        ]
+    }
+]

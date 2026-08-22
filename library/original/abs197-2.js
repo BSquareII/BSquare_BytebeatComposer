@@ -1,0 +1,11 @@
+q=(a,b)=>(a%b),sp=((0.83*t*2**(parseInt('5CL5J5L05CL5J5L02CL2J2LM2OM2L2J0'[31&t>>13],36)/12))/4),sp=(q(sp,32)+q(sp,32.25)+q(sp,48)+q(sp,48.25)+q(sp,64)+q(sp,64.5))/2.5,sp*=-t>>'8878'[3&t>>14]&31,sp/=32,drum=(sin(t*2.4>>4)*t&63)*(-t>>9&31)/64*'0101'[3&t>>14],drum2=(sin(t>>1)*t&31)*(-t>>8&31)/24,drum3=(sin(t/3^t*1.2|(t>>4^t>>1))*(-t>>'8767'[3&t>>14]>>1&31)+40)*'00101001'[7&t>>13],kick=abs(sin(9e3/(t&[16383,8191,16383,16383][3&t>>14])))*64,kick2=((8-sin(4e4/(t&16383))*4)+(4-sin(3e4/(t&8191)*1.5))+(sin(1e4/(t&4095))))*PI,hihat=1.1**(random()*(-t>>8&15)*'0010'[3&t>>12])*16,
+arr1=[sp,sp+drum+hihat][1&t>>15],
+arr2=[sp+hihat,sp+drum,sp+kick+drum,sp+kick+drum+drum2][3&t>>15],
+arr3=[sp+drum,(sp+drum+drum2+kick)/1.5,(sp+drum+drum2+drum3+kick)/2.25,(sp+drum+drum2+drum3+kick+kick2)/3][3&t>>16],
+fx=64+sin([4e5,1e5][1&t>>15]/(t&[8191,8191,16383,8191][3&t>>15]))*14,
+arr4=[drum,drum+sp,(drum+drum3+hihat+kick+fx+sp)/1.5,(drum2+hihat+kick2+fx+sp)/2][3&t>>16],
+fx2=t*(-t>>11&7)/[12,9,8,7][3&t>>16]&12,
+arr5=[sp+kick,sp+drum+kick+hihat,sp+drum+kick2+hihat+fx2,fx+sp][3&t>>15],
+arr6=[sp+hihat+kick,sp+kick2+drum,(drum+drum2+kick2+sp+fx2)/1.5,(fx+fx2+kick+sp+kick2+drum+drum2+drum3)/3][3&t>>16],
+full=(fx+fx2+kick+(sp*1.75)+kick2+drum+drum2+drum3)/3,
+[sp,sp,sp+hihat,sp+drum+hihat,sp+kick+drum+hihat,arr1,arr2,arr3,arr4,arr5,arr6,full,full,full,full,sp][t>>18]

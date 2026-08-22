@@ -1,0 +1,22 @@
+t?0:lp=hp=0,
+I=6144,
+l=t%4**7,
+_I=sin(cbrt(l)*6)*8/exp(l/1024)*(-t>>14&1),
+hihat=sin(t/4+sin(t/3)**2+cos(t/3.2)**3)*random()*2*max(0,1-t/1024%4)*(t>>3&1),
+snare=sin(sin(t/3|t/7|t/8)+sin(t/9+sin(t/5.4))**9).toString(4).substring(1,3)*max(0,1-t/2048%8)*50*(t>>14&1),
+lp+=(snare-lp)*.3,
+hp+=(hp2=lp-hp)*.2,
+bass=t*PI/320*[1,6/5,4/3,8/5][t>>16&3],
+bass=sin(cbrt(sin(bass))+sin(bass/2))*1.1*(1-t/4**8%1/2),
+t?0:k=[Array(_$=I).fill(0),Array(_DD=_$*1.5).fill(0)],
+F$=0.6,
+Q=_=>(
+   T=t/10*(1+.006*!!_)*(t&65536?'132'[(t/3>>9)%3]:1)*'25426483'[(t>>12)%8]*[1,6/5,4/3,8/5][t>>16&3],
+   sign(sin(T*PI/32)+sin(t/4e3)/3+.5)*.3
+   ),
+$$=Q(0)+k[0][Z=t%_$],
+$_=Q(1)+k[1][_FF=t%_DD],
+[
+ (k[0][Z]=$$*F$)+_I+hihat+hp2+bass,
+ (k[1][_FF]=$_*F$)+_I+hihat+hp2+bass
+].map(v=>v*.8-.1)

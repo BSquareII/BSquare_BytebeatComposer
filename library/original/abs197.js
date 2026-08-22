@@ -1,0 +1,5 @@
+this.m1=128+sin(expm1(cos(t/[5,6,8,5,6,8,5,6,8,10,10,12,10,12,15,16][15&t>>13]/[1,1.05,1.08,1.13][3&t>>18])))*20,this.m2=exp(sin(cos(atan(sin(t/[24,20,22.75,[27,30][1&t>>17]][3&t>>14])))))*43+(sin(t/[6,6,8,5,10,10,12,15][7&t>>14])*6)+(cos(sin(t/[4,5,6,8,10,12,15,18,5,8,10,12,18,24,30,36][15&t>>13]*0.333333333)))*63,
+this.saw=5*asinh(tan(t/[80,72,64,48,48,48,40,36,40,40,36,32,32,48,40,24][15&t>>[12,13][1&t>>14]]))+40,this.echobas=((((t*[1.5,2.25][1&t>>17]*[1,0.4,0.6,0.2][3&t>>13]&64)+(t*[1,0.4,0.6,0.2][3&t>>13]/1.001&64)+((t*[0.5,0.2,0.3,0.1][3&t>>13])&64))+((4*t*[0.25,0.1,0.2,0.125][3&t>>15])&64))/3)*(-t>>8&31)/50,this.n=2*min(9e5/(t&[8191,16383][1&t>>15]),800)&63,this.sn=sin(t>>3^t/5|t>>5)*(-t>>[9,10][1&t>>15]&31 
+)+40,this.drum='01'[1&t>>'13235234'[7&t>>14]]*cos(t>>5|t>>2^t/-t*7)*(-t>>9&31)+40,
+
+[echobas,echobas+saw,echobas+m1,echobas+m2,(echobas+m1+saw)/1.6,(echobas+m1+m2+saw)/3,(echobas+m1+saw+sn)/3,(echobas+m2+saw+sn+drum)/5,(echobas+m1+m2+saw+sn+drum)/6,(echobas+m1+saw+sn+drum+n)/7,(echobas+m1+m2+saw+sn+drum+n)/8,(echobas+m1+m2+saw+sn+drum+n)/8,(echobas+m1+m2+saw+sn+drum)/7,(echobas+m2+saw+sn+drum)/6,(echobas+m2+saw)/4,(echobas+saw)/2,echobas][t>>19]  

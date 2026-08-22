@@ -1,0 +1,6 @@
+t?0:fx=[],fxi=0,dn=(x,y)=>isNaN(x)?y:x,nt=x=>2**(dn(x,-9e9)/12),lpf=(a,c,r)=>(c+=1e-14,fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(a-fx[fxi][0]-fx[fxi][1]*(1-sqrt(r)**.7)/c)*c),hpf=(a,c,r)=>a-lpf(a,c,r),bpf=(a,h,l,r)=>lpf(hpf(a,h,r),l,r),del=(i,d,f,c=0)=>(fx[++fxi]??=Array(d).fill(0),out=i+fx[fxi][(t+c|0)%d],fx[fxi][t%d]=out*f,out),rev=(m,a,s,v,f,d,w,E=x=>x)=>{var out=0;for(let i=0;i<a;i++){out+=E((del(m,s+(v*i),f,i*1568+12e3+(cos(t/32e3*(i/70+.8))*96))-m)/a)};return m*d+(out*w);},bt=x=>(x&255)/128-1,pwm=(x,y)=>hpf(bt((x/2&127)+y&128),.01,.004),sl=(x,y)=>(fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(x-fx[fxi][1])/y),seq=(a,b)=>a[(ts>>b)%a.length],drm=(D,R)=>(F=2**R,P=ts%F,
+{k:tanh(tanh(sin(P**.01*1e3)*7)*exp(-ts/F%1*4)+(random()-.5)*exp(-ts/F%1*12)),s:tanh(tanh(sin(P**.01*2e3)*4)*exp(-ts/F%1*6)+(random()-.5)*exp(-ts/F%1*20)+bpf(random(),.01,.1,.4)*min(exp(ts/F%1*6)/9,1)*exp(-ts/F%1*2)*4),h:hpf(random(),.2,.4)*exp(-ts/F%1*13),b:atan2(sin(t/sr*256*440*PI/128),.125)*exp(-ts/F%1*8)/1.3," ":0}[D]),
+wv=x=>sin((x=x*PI/128)+sin(x*3)-cos(x/2+tan(x)/3))-cos(x*2+sin(x)*4),
+
+t%8192?0:(x=random()**3*5+.5,y=random()>.6?1:0),
+m=i=>rev(del(del(lpf(hpf(wv(sl(x,3000)),.01,.01),.2,.1)*y,11e3,.6),5e3,.5),24,i?3484:3686,i?2333:2696,.9,.7,1.35,x=>lpf(x,.2,.1))/1.7,[0,1].map(m)

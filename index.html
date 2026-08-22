@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BSII's bbeat player</title>
+	<link rel="canonical" href="https://bsquareii.github.io/BSquare_BytebeatComposer">
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="bytebeat.css">
+	<link rel="modulepreload" href="./scripts/audioProcessor.js">
+	<script type="module" async src="./scripts/bytebeat.js"></script>
+</head>
+<body>
+	<main id="content">
+		<section id="container-fixed">
+			<div id="editor-container">
+				<textarea  id="editor-default" spellcheck="false">fix=1,
+old_sr=48e3,
+new_sr=22050,
+speed=3/2,
+T=t*old_sr/new_sr,
+t?0:A=new Float32Array(x=int(3*(v=8192*new_sr/old_sr/speed)*speed/fix)),
+
+A[t%x]+=w()+A[t%x],
+A[t%x]/=3,
+A[t%x]+sin(log(t%v*T/t)*16+(random()-.5)*2*.9994**(t%v*T/t))*.9996**(t%v*T/t)/2*(0b1011011011010100>>(t/v&15)&1);
+function w() {
+	o=0;
+	for(i=0;i&#60;5;i++) {
+		o+=asin(sin(T/48e3*PI*375*1.5**i*"_____1______1__1"[(T>>14+i%3|T>>17-i%4)+(i*5^i*2)-(i|i*9)&15]))*sin(T/4**7*PI)||0;
+	}
+	return o*2/i
+}</textarea>
+			</div>
+			<div class="controls">
+				<div class="controls-group controls-grow">
+					<button id="control-counter-units" class="control-button" title="Time units">t</button>
+					<input type="text" id="control-counter" class="control-text" value="0" title="Set time to jump along the timeline then press Enter">
+				</div>
+				<div class="controls-group">
+					<span id="control-lag" class="control-text" title="Computing lag (freezes) factor">---</span>
+				</div>
+				<div class="controls-group">
+					<button id="control-stop" class="control-button" title="Stop and reset">
+						<svg><use xlink:href="#symbol-stop"></use></svg>
+					</button>
+					<button id="control-reset" class="control-button" title="Reset time to 0">
+						<svg><use xlink:href="#symbol-reset"></use></svg>
+					</button>
+				</div>
+				<div class="controls-group">
+					<button id="control-play-backward" class="control-button control-play" title="Play reverse">
+						<span class="control-fast-multiplier">1</span>
+						<svg class="svg-fast"><use xlink:href="#symbol-fast"></use></svg>
+						<svg class="svg-play"><use xlink:href="#symbol-play"></use></svg>
+					</button>
+					<button id="control-pause" class="control-button" title="Pause">
+						<svg><use xlink:href="#symbol-pause"></use></svg>
+					</button>
+					<button id="control-play-forward" class="control-button control-play" title="Play forward">
+						<span class="control-fast-multiplier">1</span>
+						<svg class="svg-fast"><use xlink:href="#symbol-fast"></use></svg>
+						<svg class="svg-play"><use xlink:href="#symbol-play"></use></svg>
+					</button>
+				</div>
+				<select id="control-mode" class="control-select controls-grow" title="Sound mode">
+					<option value="Bytebeat" selected>Bytebeat</option>
+					<option value="Signed Bytebeat">Signed Bytebeat</option>
+					<option value="Floatbeat">Floatbeat</option>
+					<option value="Funcbeat">Funcbeat</option>
+					<option value="postfix">postfix</option>
+				</select>
+				<div class="controls-group controls-grow">
+					<input type="text" id="control-samplerate" class="control-text" title="Set sample rate (in Hz) then press Enter">
+					<select id="control-samplerate-select" class="control-select" title="Sample rate">
+						<option value="4000">4kHz</option>
+						<option value="6000">6kHz</option>
+						<option value="8000">8kHz</option>
+						<option value="11025">11025Hz</option>
+						<option value="12000">12kHz</option>
+						<option value="16000">16kHz</option>
+						<option value="22050">22050Hz</option>
+						<option value="24000">24kHz</option>
+						<option value="32000">32kHz</option>
+						<option value="44100">44100Hz</option>
+						<option value="48000">48kHz</option>
+					</select>
+					<span id="control-srdivisor" class="control-text" title="Sample rate divisor">1</span>
+					<div id="control-srdivisor-buttons">
+						<button id="control-srdivisor-up" class="control-button" title="Increase the sample rate divisor">^</button>
+						<button id="control-srdivisor-down" class="control-button" title="Decrease the sample rate divisor">^</button>
+					</div>
+				</div>
+				<div class="controls-group controls-grow">
+					<input id="control-volume" type="range" min="0" max="1" value=".5" step="0.01" title="Volume">
+				</div>
+				<span class="control-label" id="control-volume-display">...%</span>
+				<div class="controls-group">
+					<button id="control-scaledown" class="control-button" title="Zoom in the scope">
+						<svg><use xlink:href="#symbol-scaledown"></use></svg>
+					</button>
+					<div id="control-scale" class="control-button" title="Scope zoom factor"></div>
+					<button id="control-scaleup" class="control-button" title="Zoom out the scope">
+						<svg><use xlink:href="#symbol-scaleup"></use></svg>
+					</button>
+				</div>
+				<select id="control-drawmode" class="control-select controls-grow" title="Drawing mode">
+					<option value="Points" selected>Points</option>
+					<option value="Waveform">Waveform</option>
+					<option value="Diagram">Diagram</option>
+				</select>
+				<div class="controls-group">
+					<button id="control-rec" class="control-button" title="Record to the file">
+						<svg><use xlink:href="#symbol-rec"></use></svg>
+					</button>
+					<button id="control-link" class="control-button" title="Copy the song link">
+						<svg><use xlink:href="#symbol-link"></use></svg>
+					</button>
+					<button id="control-expand" class="control-button" title="Expand the code editor">
+						<svg><use xlink:href="#symbol-expand"></use></svg>
+					</button>
+					<span id="control-codesize" class="control-text" title="Code size in bytes (link size in characters)"></span>
+				</div>
+			</div>
+			<pre id="error"></pre>
+			<div id="canvas-container" title="Click to play">
+				<canvas id="canvas-main" width="1024" height="256"></canvas>
+				<div id="canvas-timecursor"></div>
+				<div id="canvas-play" class="canvas-initial canvas-play">
+					<svg id="svg-canvas-play"><use xlink:href="#symbol-play"></use></svg>
+					<svg id="svg-canvas-pause"><use xlink:href="#symbol-pause"></use></svg>
+				</div>
+			</div>
+		</section>
+		<section id="container-scroll">
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>Info</h1> &#8722; about bytebeat
+				</summary>
+				<article id="info" class="library-container entry-top loaded">
+					Bytebeat music (or one-liner music) was invented in September 2011.
+					They're generally a piece of rhythmic and somewhat melodic music with no score, no instruments, and no real oscillators.
+					It's simply a single-line formula that defines a waveform as a function of time, processed (usually) 8000 times per second, resulting in an audible waveform with a 256-step resolution from silence (0) to full amplitude (256).
+					If you put that formula into a program with a loop that increments time variable (t), you can generate the headerless unsigned 8 bit mono 8kHz audio stream on output, like in this application.
+					Since these directly output a waveform, they have great performance in compiled languages and can often be ran on even the weakest embedded devices.<br>
+					<a href="http://canonical.org/~kragen/bytebeat/" target="_blank">History of bytebeat</a><br>
+					<br>
+					Original blog posts and videos from Viznut:<br>
+					<a href="http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html" target="_blank">Blog posts #1</a><br>
+					<a href="http://countercomplex.blogspot.com.au/search/label/algorithmic%20music" target="_blank">Blog posts #2</a><br>
+					<a href="https://www.youtube.com/watch?v=GtQdIYUtAHg" target="_blank">YouTube video #1</a><br>
+					<a href="https://www.youtube.com/watch?v=qlrs2Vorw2Y" target="_blank">YouTube video #2</a><br>
+					<a href="https://www.youtube.com/watch?v=tCRPUv8V22o" target="_blank">YouTube video #3</a><br>
+					<br>
+					This website is a live editing bytebeats player. It has a collection of bytebeat music I found on the internet, and also the music I created.<br>
+					You can choose between bytebeat, signed bytebeat and floatbeat formats.<br>
+					<br>
+					<b>Bytebeat:</b> expects output is an unsigned 8bit value (0 to 255).<br>
+					<b>Signed bytebeat:</b> assumes output is a signed 8bit value (-128 to 127).<br>
+					<b>Floatbeat:</b> assumes output is -1.0 to 1.0.<br>
+					<br>
+					This website is the fork of <a href="http://entropedia.co.uk/generative_music/" target="_blank">8-bit Generative Composer</a> by <a href="http://twitter.com/paul_hayes/" target="_blank">@paul_hayes</a>.<br>
+					Forked by SthephanShi aka Viraya.<br>
+					<br>
+					Custom functions by Chasyxx include: <ul>
+						<li>bitC: <b>(X,Y,Z)</b> => <i>X</i>&amp;<i>Y</i>?<i>Z</i>:0</li>
+						<li>br: <b>(T,SIZE)</b> => Bit reverses <i>SIZE</i> bits of <i>T</i>, discards the other bits</li>
+						<li><b><i>sinf, cosf, tanf</i>: (X)</b> => <i>sin, cos, tan</i> but inputting t will output the same freqency as t by itself. AKA the function loops around every 256 "steps" instead of every 2pi steps</li>
+						<li>regG: <b>(T,regEx)</b> => takes a string of <i>T</i>'s bits, and tests against <i>regEx</i> for a match. Outputs a boolean.</li>
+					</ul>
+					<b>Note from Chasyxx (modified by BSquareII):</b><br>
+					Using any of these functions makes your code exotic, meaning that it won't be added to the dollchan.net library.<br>
+					They're just a novelty, so please use them at your own risk.
+				</article>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>Classic</h1> &#8722; C-compatible bytebeat code
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-C-compat" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>JS-256</h1> &#8722; JS bytebeat code under 256 bytes
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-JS-256" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>JS-1k</h1> &#8722; JS bytebeat code under 1 kilobytes
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-JS-1k" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>JS-big</h1> &#8722; JS bytebeat code over more than 1 kilobytes
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-JS-big" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>Floatbeat</h1> &#8722; assumes output is -1.0 to 1.0
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-floatbeat" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>Floatbeat-big</h1> &#8722; floatbeat code over more than 1 kilobytes
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-floatbeat-big" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>Funcbeat</h1> &#8722; statement based
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-funcbeat" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>postfix</h1> &#8722; bytebeat code, but it's created using RPN (Reverse Polish Notation)
+					<svg class="loading-wait hidden"><use xlink:href="#symbol-wait"/></svg>
+				</summary>
+				<div id="library-postfix" class="library-container"></div>
+			</details>
+			<details class="library-content">
+				<summary class="library-header">
+					<h1>Settings</h1>
+				</summary>
+				<article id="settings" class="library-container entry-top loaded">
+					<label class="settings-block">
+						<select id="control-theme-style" class="control-select" title="Player style">
+							<option value="Default" selected>Default</option>
+							<option value="Blue">Blue</option>
+							<option value="Cake">Cake</option>
+							<option value="Chasyxx">Chasyxx</option>
+							<option value="D3nschot">D3nschot</option>
+							<option value="Dollchan">Dollchan</option>
+							<option value="Dusk">Dusk</option>
+							<option value="Green">Green</option>
+							<option value="Orange">Orange</option>
+							<option value="Purple">Purple</option>
+							<option value="Teal">Teal</option>
+							<option value="Red">Red</option>
+						</select>
+						Theme style
+					</label>
+				</article>
+			</details>
+			<footer>
+				<a class="link" href="https://dollchan.net/btb/" target="_blank">Dollchan's bytebeat imageboard</a><br>
+				<a class="link" href="https://www.reddit.com/r/bytebeat_2/" target="_blank">Awogler's bytebeat subreddit</a><br>
+				<a class="link" href="https://codeberg.org/amin272/BSquare_BytebeatComposer" target="_blank">Source code on Codeberg</a><br>
+			</footer>
+		</section>
+	</main>
+
+	<!-- SVG BUTTONS -->
+	<div id="svg-icons" style="height: 0; width: 0; overflow: hidden;">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<symbol viewBox="0 0 32 32" id="symbol-play">
+				<path d="m23 14.3-9-5.2c-1.3-.8-3 .2-3 1.7v10.4c0 1.5 1.7 2.5 3 1.7l9-5.2c1.3-.7 1.3-2.7 0-3.4z">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-fast">
+				<path d="M17.3 11.7v8.6c0 1.7 2 2.6 3.3 1.5l5.3-4.3c1-.8 1-2.3 0-3.1l-5.3-4.3c-1.3-1-3.3-.1-3.3 1.6">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-pause">
+				<path d="M12.5 23c-1.1 0-2-.9-2-2V11c0-1.1.9-2 2-2s2 .9 2 2v10c0 1.1-.9 2-2 2zm7 0c-1.1 0-2-.9-2-2V11c0-1.1.9-2 2-2s2 .9 2 2v10c0 1.1-.9 2-2 2z">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-stop">
+				<path d="M20.3 22.3h-8.5c-1.1 0-2-.9-2-2v-8.5c0-1.1.9-2 2-2h8.5c1.1 0 2 .9 2 2v8.5c0 1.1-.9 2-2 2z">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-reset">
+				<path d="M11.8 22.3c-1.1 0-2-.9-2-2v-8.5c0-1.1.9-2 2-2s2 .9 2 2v8.5c0 1.1-.9 2-2 2zm10.5-10.6v8.6c0 1.7-2 2.6-3.3 1.6l-5.3-4.3c-1-.8-1-2.3 0-3.1l5.3-4.3c1.3-1.1 3.3-.2 3.3 1.5z">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-rec">
+				<circle cx="16" cy="16" r="6.3">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-scaledown">
+				<path d="M16.5 24h-1c-1.1 0-2-.9-2-2V10c0-1.1.9-2 2-2h1c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2zM8 16.5v-1c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v1c0 1.1-.9 2-2 2H10c-1.1 0-2-.9-2-2z">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-scaleup">
+				<path d="M8 16.5v-1c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v1c0 1.1-.9 2-2 2H10c-1.1 0-2-.9-2-2z">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-link">
+				<path d="M17 22.5H8c-1.7 0-3-1.3-3-3v-4c0-1.7 1.3-3 3-3h2v3H9c-.6 0-1 .4-1 1v2c0 .6.4 1 1 1h7c.6 0 1-.4 1-1V15h3v4.5c0 1.7-1.3 3-3 3zm7-3h-2v-3h1c.6 0 1-.4 1-1v-2c0-.6-.4-1-1-1h-7c-.6 0-1 .4-1 1V17h-3v-4.5c0-1.7 1.3-3 3-3h9c1.7 0 3 1.3 3 3v4c0 1.7-1.3 3-3 3z">
+			</symbol>
+			<symbol viewBox="0 0 32 32" id="symbol-expand">
+				<path d="M10.5 7.5H13c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5h-2.5V13c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5v-2.5c0-1.7 1.3-3 3-3zm11 17H19c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5h2.5V19c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v2.5c0 1.7-1.3 3-3 3zm3-14V13c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5v-2.5H19c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5h2.5c1.7 0 3 1.3 3 3zm-17 11V19c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v2.5H13c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5h-2.5c-1.7 0-3-1.3-3-3z">
+			</symbol>
+			<symbol viewBox="0 0 16 16" id="symbol-wait">
+				<circle fill="#929087" cx="8" cy="2" r="2">
+				<circle fill="#C5C2BA" cx="8" cy="14" r="2">
+				<circle fill="#ACAAA0" cx="2" cy="8" r="2">
+				<circle fill="#79766C" cx="14" cy="8" r="2">
+				<circle fill="#D2CFC6" cx="12.25" cy="12.25" r="2">
+				<circle fill="#9F9C93" cx="3.75" cy="3.75" r="2">
+				<circle fill="#B9B6AE" cx="3.75" cy="12.25" r="2">
+				<circle fill="#868379" cx="12.25" cy="3.75" r="2">
+			</symbol>
+		</svg>
+	</div>
+</body>
+</html>

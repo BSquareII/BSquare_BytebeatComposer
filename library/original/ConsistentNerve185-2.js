@@ -1,0 +1,24 @@
+t?0:reL=Array(nn=12288).fill(0),
+t?0:reR=Array(nn).fill(0),
+tracker=array=>(t||(i=0,N=1<<array[0][1]),
+t<N||(i<array.length-1||(i=-1),N+=1<<array[++i][1]),
+saw=n=>n,
+sine=n=>(sinf(n)+1)*g(array,i,2)/2,
+tri=n=>(asin(sinf(n))/PI*2+1)*g(array,i,2)/2,
+saw=n=>(n%256/128)*g(array,i,2)/2,
+square=n=>(n&128)/65*g(array,i,2)/2,
+o=n=>isNaN(n)?0:n,
+mute=n=>0,
+g=(a,b,c)=>b<a.length&&c<a[b].length?a[b][c]:undefined,
+n=a=>(k=eval(g(a,i,5)+"(o(t*2**((g(a,i,0)/12))/(256/g(a,i,2))%g(a,i,2)))"),g(a,i,4)?(k/256)*(-t>>(g(a,i,1)-8)&g(a,i,3)):k),
+g(array,i,5)==undefined?0:n(array)),
+f=[
+  [0,13,127,127,1,"sine"],[0,16,0,0,0,"mute"],[3-(t>>17&1),13,127,127,1,"sine"],[0,16,0,0,0,"mute"],[7,13,127,127,1,"sine"]
+],
+p=[
+[7,16,127,127,0,"tri"],[3-(t>>17&1),16,127,127,0,"tri"]
+],
+ev=(tracker(f)*(t<3447809))+((tracker(p)-1)*(t>524288)*(t<2996737))+((t>1139073)*(t<3447809)*random()*((sinf(t>>8)+1)*20)),
+reR[t%nn]=(reL[t%nn]),
+reL[t%nn]=(ev+reR[t%nn])/2,
+[min(ev+reL[(t+1)%nn],255), min(ev+reR[(t+1)%nn],255)]

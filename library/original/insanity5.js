@@ -1,0 +1,12 @@
+t?0:fx=[],fxi=0,lpf=(a,c,r)=>(c+=1e-14,fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(a-fx[fxi][0]-fx[fxi][1]*(1-sqrt(r)**.7)/c)*c),hpf=(a,c,r)=>a-lpf(a,c,r),bpf=(a,h,l,r)=>lpf(hpf(a,h,r),l,r),del=(i,d,f,c=0)=>(fx[++fxi]??=Array(d).fill(0),out=i+fx[fxi][(t+c|0)%d],fx[fxi][t%d]=out*f,out),rev=(m,a,s,v,f,d,w,E=x=>x)=>{var out=0;for(let i=0;i<a;i++){out+=E((del(m,s+(v*i),f,i*1568+12e3+(cos(t/32e3*(i/70+.8))*96))-m)/a)};return m*d+(out*w);},bt=x=>(x&255)/128-1,pwm=(x,y)=>bt((x/2&127)+y&128),sl=(x,y)=>(fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(x-fx[fxi][1])/y),dr=(x,y)=>[sign(sin((t%y)**.1*96))*max(0,1-t/y%1*1.3)**1.3,tanh(sin(t/50-6e3/(t%y))*max(0,1-t/y%1*1.1)**1.3*2+bpf(random(),.03,.4,.2)*4*(1-t/y%1)**1.3),hpf(random(),.1,.1)*(1-t/y%1)**2+sin(t*2)*(1-t/y%1)**7/2,(random()-.5)*max(0,1-t/y*2%1*1.1)**2][x]||0,
+ms=i=>(sr=32e3,bpm=150,
+tt=t*440*128/sr*2**(-4/12),ts=t/2*bpm/(60*sr/32768),
+is1="00 0 00 3 3 2 27",
+bs1="00003327",
+ml=x=>x==" "?0:2**((+x)/12),
+ee=8192/(ts/t),
+mel=tt*ml(is1[ts>>12&15]),
+bas=tt*ml(bs1[ts>>13&7])/4,
+drs='03120312021 0211'[ts>>13&15],
+sch=(drs=="0"||drs=="1")?min(1,ts/8192%1*1.1):1,
+hpf(dr(drs,ee)/2+dr("3",ee)/4+sch**2*rev(bt((mel%256)**(1+abs(sin(ts*PI/131072))*.25))/3,14,i?1372:1271,i?1293:1473,.825,1,3),.01,.01)*1.3+bt(bas^bas*2.005)/2*sch**3+lpf(bt(bas*4^bas*8.005*!((ts>>12^ts>>14&ts>>13)&1)),abs(sin(ts*PI/131072))**2,.3)/3*sch**7),[ms(0),ms(1)].map(x=>tanh(hpf(x,.01,.01)))

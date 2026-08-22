@@ -1,0 +1,1 @@
+p=1.06;e=F=s=t=0;T=5/3;D=x=>(e+=(C=x-e)/128,F+=C-F);d=(A,z,S)=>($=4*z*S%1,v=1-$,l=A[4*z*S&15],q=random()-.5,l=='B'?tanh(4*sin(128*sqrt($/S/T)+random()*v**14)*v**2)*p:l=='I'?q*v**3*p:l=='W'&&(s+=t+=1.5*q*v**.6*p-s/16-t/4)/4);return z=>D(d('BIBIWIBIIBIBWIBI',z*T,1)+256*z/p**(1+(z*T&15^6))*1.75%1*(1-z*T%1)**.5+256*z*p**(1+(z*T/2&7^1))*1.04/4%1)/2

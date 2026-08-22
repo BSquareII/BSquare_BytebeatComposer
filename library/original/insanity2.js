@@ -1,0 +1,7 @@
+t?0:fx=[],fxi=0,lp=(a,c)=>(fxi++,fx[fxi]??=0,fx[fxi]+=(a-fx[fxi])*c),hp=(a,c)=>a-lp(a,c),dt=t,wsin=p=>(-cos(p/128*PI)+1)*128-.5,dm=1e6,dl=(a,s,t,r=a=>a)=>{fxi++,fx[fxi]??=Array(dm).fill(0),wi=dt%dm,feed=a,out=0;for(var b of s)ri=(dm+dt-round(b.t))%dm,feed+=fx[fxi][ri]*b.fb,out+=fx[fxi][ri]*b.m;return fx[fxi][wi]=r(feed),a*(1-t)+
+out*t},s=(a,cu,cd)=>(fxi++,fx[fxi]??=0,sr=fx[fxi],fx[fxi]+=(a-sr)*(sr<a?cu:cd)),cmp=(a,th,ra,at,rl,sc=a)=>(fxi++,fx[fxi],a/(s(max(abs(sc)-th,0),at,rl)/th*ra+1)),mel=[0,,7,,5,,2,3,,3,5,,7,,10,12],heads=[[{t:12e3+wsin(t/380),m:.3,fb:.5},{t:2e4+wsin(t/380),m:.2,fb:.5},{t:12e3+wsin(t/500),m:.3,fb:.4},{t:14e3+wsin(t/590),m:.4,fb:.3},{t:15e3+wsin(t/760),m:.1,fb:.2},{t:18e3+wsin(t/300),m:.3,fb:.1}],[{t:14e3+wsin(t/380),m:.2,fb:.3},{t:21e3+wsin(t/100),m:.3,fb:.3},{t:18e3+wsin(t/290),m:.2,fb:.2},{t:13e3+wsin(t/190),m:.1,fb:.4},{t:1e4+wsin(t/600),m:.3,fb:.4},{t:9e3+wsin(t/480),m:.2,fb:.2}]],
+melL=[-5,0,3,2,3,2,3,5,-5,0,3,2,3,2,3,5,7,5,3,5,7,9,10,9,7,9,10,12,9,10,7,9,0,3,8,3,0,3,7,8,5,7,2,3,0,2,-2,0,-5,0,3,2,3,2,3,5,-5,0,3,2,3,2,3,5],
+wave=t=>lp(sin((t%=256)|t>>2|t>>3|t>>1),.8)*1.5,
+wave2=t=>abs(t%256-100)%256/128-.5,
+master=i=>dl(wave(t*1.55*2**(mel[t*1.5>>13&15]/12)/4)/2*(1-t*1.5/8192%1),heads[i],.2,x=>hp(x,.02))+dl(wave2(t*1.55*2**(melL[t*1.5>>14&63]/12))*(1-t*1.5/16384%1/2)*1.25,heads[i],.5,x=>hp(x,.02))+tanh(atan(tan((i?cos:sin)(cbrt(t*1.5%32768)*7))*3))*(1-t*1.5/32768%1)**3+tanh(random()*5*(1-t*1.5/32768%1)**3*!!(t*1.5&32768))+tanh(random()*(1-t*1.5/8192%1)/1.5),
+[master(0),master(1)].map(v=>cmp(v*128-24,127,1,1,1e-3))
