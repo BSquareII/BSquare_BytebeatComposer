@@ -3146,6 +3146,52 @@
                 "date": "Jun 28, 2026",
                 "sampleRate": 32000,
                 "codeOriginal": "bt=x=>(x&255)/128-1,(()=>{for(e=o=0;e<12;e++){o+=bt(t*($=3/2)**e*2**(D=-((t>>14^t>>13)&15)/12))};return o/12})()*min(1,(R=exp)(t/16384%1*4)/12)+sign(sin((t%16384)**.01*2048))*R(-t/16384%1*12)*!(t&16384)+(sign(random()-.5)+sin(t)/3)*(R(-t/16384%1*6)*1.6%1)*!!(t&16384)/2+sign(random()-.5)*R(-t/4096%1*3)/4+bt(t*2**D*$**1)/7"
+            },
+            {
+                "name": "cool",
+                "remix": {
+                    "author": "Carrot-Guy",
+                    "name": "is",
+                    "url": "https://www.bytebeat.cloud/post/d7d2d49d-b153-439d-8f93-2f9218b87c46"
+                },
+                "url": "https://www.bytebeat.cloud/post/17d192b5-0896-483a-89e9-dd5d50274cbd",
+                "mode": "Floatbeat",
+                "date": "Jul 22, 2026",
+                "sampleRate": 60000,
+                "stereo": true,
+                "codeOriginal": [
+                    "(t/=4)?0:fx=[],fxi=0,dn=(x,y)=>isNaN(x)?y:x,nt=x=>2**(dn(x,-9e9)/12),lpf=(a,c,r)=>(c+=1e-14,fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(a-fx[fxi][0]-fx[fxi][1]*(1-sqrt(r)**.25)/c)*c),hpf=(a,c,r)=>a-lpf(a,c,r),bpf=(a,h,l,r)=>lpf(hpf(a,h,r),l,r),bt=x=>(x&255)/128-1,pwm=(x,y)=>hpf(bt((x/2&127)+y&128),.005,.004),sqr=x=>pwm(x,64),tri=x=>asin(sin(x*PI/128))/PI*2,sinf=x=>sin(x*PI/128),drm=(D,R)=>(F=2**R,P=t%F,U=t/F,",
+                    "{k:tanh(sin(P**.01*1724)*12*exp(-U%1*5)),s:tanh(7*sin(P**.01*2121)*exp(-U%1*7)+bpf(random(),.09,.1,1e-4)*16*min(1,exp(U%1*7)/12)*exp(-U%1*2)),h:hpf(random(),.2,.03)*exp(-U%1*12),b:atan2(sin(t/32e3*256*440*PI/128),.1)*exp(-U%1*4)/1.5,\" \":0}[D[(t>>R)%D.length]]),ms=i=>drm(\"k h s h \",11)+bt(((y=5*t/6*(t&16384?t&8192?15/2:3:4)|t/2*(t&16384?t&8192?15/2:3:4)&(t|t*3)>>6)*3|t>>(t&16384?5:6))%256/2+(y%256/2))*min(1,exp(t/8192%1*5)/7),[ms(0),ms(1)]"
+                ]
+            },
+            {
+                "name": "absolute absolute",
+                "description": "winner of BytebeatCloud's #week34 challenge (Footsteps)",
+                "url": "https://www.bytebeat.cloud/post/63dd9873-30ef-42d3-b449-99df24bb58c2",
+                "mode": "Floatbeat",
+                "date": "Aug 01, 2026",
+                "sampleRate": 48000,
+                "codeOriginal": [
+                    "t?0:(",
+                    "TIME=24576,",
+                    "DISPLAY=1,",
+                    "",
+                    "fx=[],",
+                    "// funcs:",
+                    "an=x=>\"\\u2588\".repeat(round(abs(x)*32)),",
+                    "lpf=(a,c)=>(fx[++fxi]??=0,fx[fxi]+=(a-fx[fxi])*c),",
+                    "hpf=(a,c)=>a-lpf(a,c),",
+                    "bpf=(a,h,l)=>lpf(hpf(a,h),l),",
+                    "clp=a=>max(min(a,1),-1)",
+                    "),",
+                    "bc=(a,b)=>(t%b||(o=a),o),",
+                    "fxi=0,",
+                    "thr=(x,y)=>{if(!(t%512)){throw x};return y},",
+                    "out=clp(sin((t%(T=TIME))**.01*2e3)*3*exp(-t/T%1*17)+hpf(hpf(random(),.3),.4)*max(0,1-t/T%1*9)**2*1.375)*(t/2%T<T/2)+clp(sin((t%T)**.01*2400)*exp(-t/T%1*20)*6+bpf(random(),.2,.2,.3)*21*min(1,exp(t/T%1*3)/16)*max(0,1-t/T%1*1.7)**1.3)*(t/2%T>T/2)+hpf(hpf(random(),.1),.2)*exp(-t*'43'[t/2/T&1]/T%1*7)+clp(sin(t*PI/384-1e4/(t%T))*(t/T%1)**3*12*(1-t/T*4%1))/2,",
+                    "",
+                    "OUT=bc(tanh(out),round(1+abs(sin(t/T*PI/8))**3*8)),",
+                    "DISPLAY?thr(`\\nVolume: ${an(OUT)}`,OUT):OUT"
+                ]
             }
         ]
     },

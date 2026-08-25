@@ -1648,6 +1648,17 @@
                 "fileOriginal": true
             },
             {
+                "name": "woh",
+                "description": "submission for BytebeatCloud's #week32 challenge (Harmony)",
+                "url": "https://www.bytebeat.cloud/post/46587e0d-e7a8-4d30-b44a-b172ffb9e306",
+                "mode": "Floatbeat",
+                "date": "Jul 18, 2026",
+                "sampleRate": 41000,
+                "stereo": true,
+                "file": "insanity23.js",
+                "fileOriginal": true
+            },
+            {
                 "name": "fm chords",
                 "url": "https://www.bytebeat.cloud/post/7e850068-85f3-4515-b2ea-d4a4c2eefa8b",
                 "mode": "Floatbeat",
@@ -1655,6 +1666,21 @@
                 "sampleRate": 48000,
                 "stereo": true,
                 "file": "insanity19.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "get a load of this guy",
+                "remix": {
+                    "author": "LionThen4332",
+                    "name": "$METAL$ remix[REMASTERED]",
+                    "url": "https://www.bytebeat.cloud/post/1b9bebdc-f8bc-4d17-b80b-b705fc0da903"
+                },
+                "url": "https://www.bytebeat.cloud/post/d0ddeddf-2059-4c54-99ad-5face78289d8",
+                "mode": "Floatbeat",
+                "date": "Aug 22, 2026",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "insanity24.js",
                 "fileOriginal": true
             }
         ]

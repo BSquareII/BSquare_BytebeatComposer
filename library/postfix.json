@@ -660,6 +660,26 @@
                     "t SWAP - &",
                     "255 % ^ DUP +"
                 ]
+            },
+            {
+                "name": "made a chorus (bad)",
+                "date": "Aug 24, 2026",
+                "mode": "postfix",
+                "sampleRate": 16000,
+                "codeOriginal": "t - ~ + + + | = | = | = | = | = - - - - -"
+            },
+            {
+                "name": "moving waveform",
+                "date": "Aug 24, 2026",
+                "mode": "postfix",
+                "sampleRate": 48000,
+                "codeOriginal": "t - ~ + + + | = | = | + + + = DUP | - - - - -"
+            },
+            {
+                "name": "signal interference",
+                "date": "Aug 24, 2026",
+                "mode": "postfix",
+                "codeOriginal": "t ~ - + + + | = | = | + + + = DUP | - - - - - - DUP ^ ^ + + +"
             }
         ]
     },
@@ -684,6 +704,29 @@
                 "mode": "postfix",
                 "date": "Jun 22, 2026",
                 "codeOriginal": "t t 11 >> t 12 >> | 3 + * t t 12 >> t 11 >> ^ 15 & 1 + / sin 64 * >> 255 & t 4 >> & 100000 t 4096 % / +"
+            }
+        ]
+    },
+    {
+        "author": "Gaham (Glebguything)",
+        "children": [
+            {
+                "name": "song dropping itself",
+                "date": "Aug 24, 2026",
+                "mode": "postfix",
+                "sampleRate": 12000,
+                "codeOriginal": [
+                    "x=t/128%64",
+                    "t DUP 1.004 / ^ t 3 * & ^ | t ^ DUP  1.004 * ^ t/128 x / |"
+                ]
+            },
+            {
+                "name": "postfix beat",
+                "url": "https://dollchan.net/btb/res/727.html#16860",
+                "date": "Aug 24, 2026",
+                "mode": "postfix",
+                "sampleRate": 22050,
+                "codeOriginal": "t&=4095*20 t/4 & / * * DUP t>>14 t/4 * * t - / t>>5 |"
             }
         ]
     }
