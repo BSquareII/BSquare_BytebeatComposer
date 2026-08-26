@@ -2167,6 +2167,34 @@
         ]
     },
     {
+        "author": "insanity696420",
+        "children": [
+            {
+                "name": "goéfí á bájtőbít",
+                "date": "Jul 03, 2026",
+                "mode": "Signed Bytebeat",
+                "sampleRate": 32000,
+                "codeOriginal": "this.T??=this.X??=0,T++,this.x??=Array(12288).fill(0),t%8192?0:r=random()*16384+1024,t%floor(r)?0:(z=random()*8,M=random()>.5),o=x.shift()+((M?T/(4+floor(z))*32:((T/(4+floor(z))*2|0)%256)**5.5)&255)/4,x.push(o/1.4),o+=sin(15e3/(T%16384+1))*64*(T>262144),max(min((X+=(o-X)*.01,o-X),127),-127)"
+            },
+            {
+                "name": "3:2 remix",
+                "remix": {
+                    "author": "insanity696420",
+                    "name": "3:2"
+                },
+                "url": "https://www.bytebeat.cloud/post/4c4fb208-a86d-479b-8eaa-9287a13009df",
+                "date": "Jul 19, 2026",
+                "mode": "Signed Bytebeat",
+                "sampleRate": 32000,
+                "stereo": true,
+                "codeOriginal": [
+                    "t?0:fx=[],fxi=0,dn=(x,y)=>isNaN(x)?y:x,nt=x=>2**(dn(x,-9e9)/12),lpf=(a,c,r)=>(c+=1e-14,fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(a-fx[fxi][0]-fx[fxi][1]*(1-sqrt(r)**.25)/c)*c),hpf=(a,c,r)=>a-lpf(a,c,r),bpf=(a,h,l,r)=>lpf(hpf(a,h,r),l,r),bt=x=>(x&255)/128-1,pwm=(x,y)=>hpf(bt((x/2&127)+y&128),.005,.004),sqr=x=>pwm(x,64),tri=x=>asin(sin(x*PI/128))/PI*2,sinf=x=>sin(x*PI/128),drm=(D,R)=>(F=2**R,P=t%F,U=t/F,",
+                    "{k:tanh(sin(P**.01*1724)*12*exp(-U%1*5)),s:tanh(7*sin(P**.01*2121)*exp(-U%1*7)+bpf(random(),.09,.1,1e-4)*16*min(1,exp(U%1*7)/12)*exp(-U%1*2)),h:hpf(random(),.2,.03)*exp(-U%1*12),b:atan2(sin(t/32e3*256*440*PI/128),.1)*exp(-U%1*4)/1.5,\" \":0}[D[(t>>R)%D.length]]),ms=i=>drm(\"k h s hb\",12)+drm('h',12)+min(1,exp(t/16384%1*5)/6)*(R=x=>(bt(t*(x?i?1.005:.995:1)/(É=t&65536?2:3)*((t>>12^t>>13)%33%21%13%10))+atan(-lpf(bt(t/É),.01+(t/262144%1)**1.1*.05,.8)*2))/6)(0)+R(1),[ms(0),ms(1)].map(x=>max(min(x,1),-1)*127)"
+                ]
+            }
+        ]
+    },
+    {
         "author": "Two2Fall",
         "name": "Did you know two plus two is five?",
         "remix": {
@@ -2180,22 +2208,5 @@
         "sampleRate": 48000,
         "stereo": true,
         "codeOriginal": "n=i=>(t&1?1:2)*1.1666*2**((i+2)/12),p=(j,w)=>(j|j+w)&128,s=d=>max(min((((sqrt(t&8191)*26)&128)-64)*(t&4096?0:-t>>4&255)/50*(K='1  1 11 1    1 1'[l=t>>13&15])+(((sqrt((t&8191)*19000)+random()*90)&128)-64)*(-t>>5&255)*(S='    1    1  1   '[l])/120+((random()-.5)*((t>>11&3)==0?-t>>5&63:0)*1.8+((c=(t*d*n([(aA=[0,3,7,10])[u=t/2&3],(aB=[3,7,10,15])[u],(aC=[[0,5,8,12],[-2,2,5,10]][(z=t>>16&1)])[u],(aD=[0,3,7,10])[u],aC[u],(aE=[-4,0,3,7])[u],aC[u],aA[u]][a=t>>17&7])&128)-64)*(-t/3>>5&(v=256)-1)/v+c%v*(-t>>6&v-1)/v)/3+p(t*n([7,7,10,10,12,12,7,7,10,10,7,,,,,,10,10,12,12,5,5,7,10,7,7,12,,,,,,5,5,5,7,10,10,7,5,7,5,0,,,,,,5,5,5,7,10,10,7,5,7,5,0,,,,,,][t>>14&63]),sin(t*PI/2**19)*100)/3+(p(t*n([0,0,3,3,-4,-2,0,0,-4,-2,-4,-4,-4,-2,0,0][t>>16&15])>>2,20))/1.3-71+round(asin(sin(t*PI/2**6*n([aA[A2=t>>13&3],aB[A2],aC[A2],aD[A2],aC[A2],aE[A2],aC[A2],aA[A2]][a])))*4)*(t>>8&255)/60)*(min(K+S,1)==1?t>>5&255:255)/256,127),-127),[s(.995),s(1.005)]"
-    },
-    {
-        "author": "insanity696420",
-        "name": "3:2 remix",
-        "remix": {
-            "author": "insanity696420",
-            "name": "3:2"
-        },
-        "url": "https://www.bytebeat.cloud/post/4c4fb208-a86d-479b-8eaa-9287a13009df",
-        "date": "Jul 19, 2026",
-        "mode": "Signed Bytebeat",
-        "sampleRate": 32000,
-        "stereo": true,
-        "codeOriginal": [
-            "t?0:fx=[],fxi=0,dn=(x,y)=>isNaN(x)?y:x,nt=x=>2**(dn(x,-9e9)/12),lpf=(a,c,r)=>(c+=1e-14,fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(a-fx[fxi][0]-fx[fxi][1]*(1-sqrt(r)**.25)/c)*c),hpf=(a,c,r)=>a-lpf(a,c,r),bpf=(a,h,l,r)=>lpf(hpf(a,h,r),l,r),bt=x=>(x&255)/128-1,pwm=(x,y)=>hpf(bt((x/2&127)+y&128),.005,.004),sqr=x=>pwm(x,64),tri=x=>asin(sin(x*PI/128))/PI*2,sinf=x=>sin(x*PI/128),drm=(D,R)=>(F=2**R,P=t%F,U=t/F,",
-            "{k:tanh(sin(P**.01*1724)*12*exp(-U%1*5)),s:tanh(7*sin(P**.01*2121)*exp(-U%1*7)+bpf(random(),.09,.1,1e-4)*16*min(1,exp(U%1*7)/12)*exp(-U%1*2)),h:hpf(random(),.2,.03)*exp(-U%1*12),b:atan2(sin(t/32e3*256*440*PI/128),.1)*exp(-U%1*4)/1.5,\" \":0}[D[(t>>R)%D.length]]),ms=i=>drm(\"k h s hb\",12)+drm('h',12)+min(1,exp(t/16384%1*5)/6)*(R=x=>(bt(t*(x?i?1.005:.995:1)/(É=t&65536?2:3)*((t>>12^t>>13)%33%21%13%10))+atan(-lpf(bt(t/É),.01+(t/262144%1)**1.1*.05,.8)*2))/6)(0)+R(1),[ms(0),ms(1)].map(x=>max(min(x,1),-1)*127)"
-        ]
     }
 ]

@@ -3580,6 +3580,39 @@
         ]
     },
     {
+        "author": "Carrot-Guy (botbeat)",
+        "children": [
+            {
+                "name": "the coolest people :)",
+                "url": "https://www.bytebeat.cloud/post/a1a1386b-a907-4835-ab29-19abaae6c4a4",
+                "date": "May 01, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 28000,
+                "codeOriginal": [
+                    "C=0,hp=(audio,cutoff)=>(t?(c=C++,hpB[c]??=0,audio-(hpB[c]+=(audio-hpB[c])*cutoff)):hpB=[]),",
+                    "g=(x,y,z)=>t/z*2**(floor((parseInt(x[(t>>y)%(x.length)],36))/5))*2**([0,4,7,11,14][(parseInt(x[(t>>y)%(x.length)],36))%5]/12),a=(g('ti3699',14,16)&256/7)*(1-t/16384%1)+((g('BaenDawg',14,16)&48)&&32)*(1-t/16384%1)+(g('insanity',13,16)&32)*(1-t/8192%1)+(g('Purishira-chan',12,32)&48)+(g('vbinchees3000',13,16)&64)+(g('Someone',13,8)&48)+(g('anouser BSquareII_ANoUserXD',13,16)&64)+(g('Maxi',13,16)&55)+(g('MarioFan171',12,16)&64)+(g('RealNeko',13,16)&55)+(g('ThusII',13,16)&72)+(g('Absist04',13,16)&72)*(1-t/8192%1)+(g('PentalogueTridecalogue',12,32)&48)*(1-t/4096%1)*2+(g('mqdantee',12,16)&48)+(g('wkwkwkwk',12,8)&224)/2+(g('greenandyellowcatjuice',12,16)&128)+(g('YouLikeHaveMaterials87 trillwin',12,32)&68)+(g('Rhenium75 GrzegorzBrzeczyszczykiewicz slugcat ccret2022',13,8)&255)/2,tanh(hp(a/256-(1/2),.01))"
+                ]
+            },
+            {
+                "name": "198 drum sequence",
+                "remix": {
+                    "author": "Carrot-Guy",
+                    "name": "looc",
+                    "url": "https://www.bytebeat.cloud/post/9b60f65e-c3c1-4122-8f5f-d8bb3107c2a5"
+                },
+                "url": "https://www.bytebeat.cloud/post/081e35de-d7dd-4ea1-8311-d7a3f399290d",
+                "date": "Jul 16, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 49150,
+                "stereo": true,
+                "codeOriginal": [
+                    "(t/=4)?t+=2**22:fx=[],fxi=0,dn=(x,y)=>isNaN(x)?y:x,nt=x=>2**(dn(x,-9e9)/12),lpf=(a,c,r)=>(c+=1e-14,fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(a-fx[fxi][0]-fx[fxi][1]*(1-sqrt(r)**.25)/c)*c),hpf=(a,c,r)=>a-lpf(a,c,r),bpf=(a,h,l,r)=>lpf(hpf(a,h,r),l,r),bt=x=>(x&255)/128-1,pwm=(x,y)=>hpf(bt((x/2&127)+y&128),.005,.004),sqr=x=>pwm(x,64),tri=x=>asin(sin(x*PI/128))/PI*2,sinf=x=>sin(x*PI/128),drm=(D,R)=>(F=2**R,P=t%F,U=-t/F,",
+                    "{k:tanh(sin((P)**.01*1724)*12*exp(-U%1*5)),s:tanh(7*sin(P**.01*2121)*exp(-U%1*7)+bpf(random(),.09,.1,1e-4)*16*min(1,exp(U%1*7)/12)*exp(-U%1*2)),h:hpf(random(),.2,.03)*exp(-U%1*12),b:atan2(sin(t/32e3*256*440*PI/128),.1)*exp(-U%1*4)/1.5,\" \":0}[D[(t>>R)%D.length]]),ms=i=>drm(\"k h s h \",11)+bt(((y=5*t/6*(t&16384?t&8192?15/2:3:4)|t/2*(t&16384?t&8192?15/2:3:4)&(t|t*3)>>6)*3|t>>(t&16384?5:6))%256/2+(y%256/2))*min(1,exp(t/8192%1*5)/7),[ms(0),ms(1)]"
+                ]
+            }
+        ]
+    },
+    {
         "author": "MarioFan171",
         "children": [
             {
@@ -3671,24 +3704,6 @@
                 "stereo": true,
                 "codeOriginal": "t*=.853,a=t*(t&1?1.005:1)*2**(-7/12)*2**([1,-6,6,-2][t>>15&3]/12),b=(a*2*2**([0,4,t>>18&1?12:9,7][t&3]/12)%256-128)*max(.25,(1-t/(t>>15&1?12288:16384)%1)**3),c=sin(6*cbrt(t%16384))*(1-t/16384%1)**8*2,d=tanh(sin(8*cbrt(t%16384))*(1-t/16384%1)**24*8+(random()-.5)*(1-t/16384%1)**2)*(1-t/16384%1)**3*!!(t>>14&1)*2,e=f=>tanh(sin(b%256/(f?96:128))*max(.5,(t/16384%1))+tanh(c+d)*(f?.9:1.1)),[e(0),e(1)]"
             }
-        ]
-    },
-    {
-        "author": "Carrot-Guy (botbeat)",
-        "name": "198 drum sequence",
-        "remix": {
-            "author": "Carrot-Guy",
-            "name": "looc",
-            "url": "https://www.bytebeat.cloud/post/9b60f65e-c3c1-4122-8f5f-d8bb3107c2a5"
-        },
-        "url": "https://www.bytebeat.cloud/post/081e35de-d7dd-4ea1-8311-d7a3f399290d",
-        "date": "Jul 16, 2026",
-        "mode": "Floatbeat",
-        "sampleRate": 49150,
-        "stereo": true,
-        "codeOriginal": [
-            "(t/=4)?t+=2**22:fx=[],fxi=0,dn=(x,y)=>isNaN(x)?y:x,nt=x=>2**(dn(x,-9e9)/12),lpf=(a,c,r)=>(c+=1e-14,fx[++fxi]??=[0,0],fx[fxi][0]+=fx[fxi][1]+=(a-fx[fxi][0]-fx[fxi][1]*(1-sqrt(r)**.25)/c)*c),hpf=(a,c,r)=>a-lpf(a,c,r),bpf=(a,h,l,r)=>lpf(hpf(a,h,r),l,r),bt=x=>(x&255)/128-1,pwm=(x,y)=>hpf(bt((x/2&127)+y&128),.005,.004),sqr=x=>pwm(x,64),tri=x=>asin(sin(x*PI/128))/PI*2,sinf=x=>sin(x*PI/128),drm=(D,R)=>(F=2**R,P=t%F,U=-t/F,",
-            "{k:tanh(sin((P)**.01*1724)*12*exp(-U%1*5)),s:tanh(7*sin(P**.01*2121)*exp(-U%1*7)+bpf(random(),.09,.1,1e-4)*16*min(1,exp(U%1*7)/12)*exp(-U%1*2)),h:hpf(random(),.2,.03)*exp(-U%1*12),b:atan2(sin(t/32e3*256*440*PI/128),.1)*exp(-U%1*4)/1.5,\" \":0}[D[(t>>R)%D.length]]),ms=i=>drm(\"k h s h \",11)+bt(((y=5*t/6*(t&16384?t&8192?15/2:3:4)|t/2*(t&16384?t&8192?15/2:3:4)&(t|t*3)>>6)*3|t>>(t&16384?5:6))%256/2+(y%256/2))*min(1,exp(t/8192%1*5)/7),[ms(0),ms(1)]"
         ]
     }
 ]

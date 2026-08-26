@@ -1630,6 +1630,15 @@
                 "fileOriginal": true
             },
             {
+                "name": "idk guys",
+                "mode": "Floatbeat",
+                "date": "Jul 15, 2026",
+                "sampleRate": 32000,
+                "stereo": true,
+                "file": "insanity25.js",
+                "fileOriginal": true
+            },
+            {
                 "name": "version panic!()",
                 "url": [
                     "https://www.bytebeat.cloud/post/b4cd0743-54d2-4502-bea2-4c1f8e993c9c",
@@ -1832,6 +1841,60 @@
     {
         "author": "Carrot-Guy (botbeat)",
         "children": [
+            {
+                "name": "Serves a purpose",
+                "url": [
+                    "https://www.bytebeat.cloud/post/5103e4b6-d945-4df3-96db-51dd7d123e49",
+                    "https://dollchan.net/btb/res/7092.html#13757"
+                ],
+                "date": "Apr 03, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "carrotguy3.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "the nice chiptune mix",
+                "remix": [
+                    {
+                        "author": "ProcessedGradient",
+                        "name": "The Nice One",
+                        "url": "https://www.bytebeat.cloud/post/e65b6b21-b361-462d-a304-a88827bf75ce"
+                    },
+                    {
+                        "author": "Carrot-Guy",
+                        "name": "Chiptune Keys",
+                        "url": "https://dollchan.net/btb/res/7092.html#13628"
+                    }
+                ],
+                "url": "https://www.bytebeat.cloud/post/b71c9289-8fe2-4b61-99de-6f1db565d575",
+                "date": "Apr 25, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 22050,
+                "stereo": true,
+                "file": "carrotguy6.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "Core ahh",
+                "url": "https://www.bytebeat.cloud/post/80156f8f-f470-421f-828d-fec4ecb3b9fd",
+                "date": "Apr 26, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 38230,
+                "file": "carrotguy5.js",
+                "fileOriginal": true
+            },
+            {
+                "name": "idk",
+                "url": "https://www.bytebeat.cloud/post/1c5f366f-2ba7-4ae7-ba11-ebd8474b709d",
+                "date": "May 02, 2026",
+                "mode": "Floatbeat",
+                "sampleRate": 24000,
+                "stereo": true,
+                "file": "carrotguy4.js",
+                "fileOriginal": true
+            },
             {
                 "name": "insanitity",
                 "remix": {

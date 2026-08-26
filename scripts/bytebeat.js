@@ -953,14 +953,10 @@ globalThis.bytebeat = new class {
 		}
 		sampleRate = Math.max(1, sampleRate);
 		switch (sampleRate) {
-			case 4000:
-			case 6000:
 			case 8000:
 			case 11025:
-			case 12000:
 			case 16000:
 			case 22050:
-			case 24000:
 			case 32000:
 			case 44100:
 			case 48000: this.controlSampleRateSelect.value = sampleRate; break;
