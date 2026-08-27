@@ -2,6 +2,7 @@
     {
         "author": "greggman",
         "mode": "Funcbeat",
+        "sampleRate": 8000,
         "codeOriginal": [
             "const notes = [261.62, 329.628, 391.995, 523.25, 391.995, 329.628, 261.62, 261.62, 1, 1];",
             "",
