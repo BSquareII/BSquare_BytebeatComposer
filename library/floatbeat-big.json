@@ -14,6 +14,7 @@
                     "https://web.archive.org/web/20130718135526/http://wmmusic.nl/"
                 ],
                 "date": "2013",
+                "sampleRate": 8000,
                 "file": "Wiebe-Marten Wijnja.js",
                 "fileOriginal": true,
                 "fileFormatted": true,
@@ -47,6 +48,7 @@
                     "https://web.archive.org/web/20130718135526/http://wmmusic.nl/"
                 ],
                 "date": "2013",
+                "sampleRate": 8000,
                 "file": "Wiebe-Marten Wijnja3.js",
                 "fileOriginal": true
             }
@@ -244,6 +246,7 @@
                 },
                 "mode": "Floatbeat",
                 "date": "Aug 31, 2025",
+                "sampleRate": 8000,
                 "file": "baen.js",
                 "fileOriginal": true
             },
@@ -350,6 +353,7 @@
             },
             {
                 "name": "6 other superstrings found at the horizon",
+                "description": "submission for BytebeatCloud's #week30 challenge (Space exploration)",
                 "remix": {
                     "author": "Spimfurt",
                     "name": "6 strings of semijazz",
@@ -1177,6 +1181,7 @@
         "url": "https://www.reddit.com/r/bytebeat_2/comments/1ngbns9/the_unicode_show/",
         "date": "Sep 13, 2025",
         "mode": "Floatbeat",
+        "sampleRate": 8000,
         "file": "chasyxx3.js",
         "fileOriginal": true
     },
@@ -1577,6 +1582,10 @@
             },
             {
                 "name": "whatever this is",
+                "cover": {
+                    "name": "The White Stripes - Seven Nation Army",
+                    "url": "https://www.youtube.com/watch?v=0J2QdDbelmY"
+                },
                 "mode": "Floatbeat",
                 "date": "Jun 30, 2026",
                 "sampleRate": 48000,
@@ -1711,6 +1720,7 @@
                 "url": "https://www.bytebeat.cloud/post/447ebb36-fc8e-47e8-9a0c-d7183cd9d877",
                 "date": "Dec 13, 2025",
                 "mode": "Floatbeat",
+                "sampleRate": 8000,
                 "file": "pck404.js",
                 "fileOriginal": true
             },
@@ -1746,6 +1756,7 @@
                 "date": "Jan 02, 2026",
                 "mode": "Floatbeat",
                 "stereo": true,
+                "sampleRate": 8000,
                 "file": "pck404-4.js",
                 "fileOriginal": true
             },

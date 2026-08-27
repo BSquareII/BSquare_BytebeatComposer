@@ -260,6 +260,7 @@
             {
                 "name": "def.x",
                 "mode": "Floatbeat",
+                "sampleRate": 8000,
                 "url": [
                     "https://www.reddit.com/r/bytebeat/comments/15wtl7v/defx/",
                     "https://ihsoyct.github.io/index.html?comments=15wtl7v&backend=artic_shift",
@@ -1799,7 +1800,7 @@
             "name": "some cool bitbeat thing i made",
             "url": "https://www.reddit.com/r/bytebeat/comments/178vzl9/some_cool_bitbeat_thing_i_made/"
         },
-        "name": "ultimate bitbeat",
+        "name": "tritbeat",
         "mode": "Floatbeat",
         "url": "https://www.reddit.com/r/bytebeat/comments/199r12o/ultimate_bitbeat/",
         "date": "Jan 18, 2024",
@@ -2358,6 +2359,7 @@
                 "url": "https://www.reddit.com/r/bytebeat/comments/1kzki7c/comment/mvv8x5x/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
                 "date": "Jun 03, 2025",
                 "mode": "Floatbeat",
+                "sampleRate": 8000,
                 "codeOriginal": "rd=t*2*\"1122112112112112\"[t/1024&15],qd=rd*pow(2,(t&32768?[0,3,5,7,8,10,12,-2]:[0,3,5,7,8,10,12,7])[t/4096&7]/12),lqd=t*2*pow(2,[0,0,3,(t&4096?-2:7)][t/8192&3]/12),((qd/2%128+((lqd&64?-lqd:lqd)&127)+sin(sin(t*1e15)*1e5)*64/exp(t/1024%1/.1)+sin(4e3/((t%4096)+50))*512/exp(t/4096%1/.6)+sin(sin(t*1e17)*1e8)*512/exp(t/4096%1/.095)*(1&t>>12))*.5)/127-.5"
             },
             {
@@ -3086,6 +3088,7 @@
             {
                 "name": "br() melody",
                 "mode": "Floatbeat",
+                "sampleRate": 8000,
                 "date": "Jun 08, 2026",
                 "exotic": true,
                 "codeOriginal": "(()=>{for(o=e=0;e<8;e++){o+=sinf(t/4*br(t>>10&15^t>>12&7|t>>13&1^t>>15&2,4)*1.001**e*e)};return(o)})()/4"
@@ -3097,6 +3100,7 @@
                     "name": "br() melody"
                 },
                 "mode": "Floatbeat",
+                "sampleRate": 8000,
                 "date": "Jun 08, 2026",
                 "exotic": true,
                 "codeOriginal": "(()=>{for(o=e=0;e<32;e++){o+=sinf(t/4*br(t>>10&15^t>>12&7|t>>13&1^t>>15&2-t>>17&7,4)*1.001**e*e)/(e/2+1)};return(o)})()/2"

@@ -628,7 +628,7 @@ globalThis.bytebeat = new class {
 		this.errorElem = document.getElementById('error');
 	}
 	loadCode({ code, sampleRate, mode }, isPlay = true) {
-		this.songData.mode = this.controlPlaybackMode.value = mode = mode || 'Bytebeat';
+		this.songData.mode = this.controlPlaybackMode.value = mode;
 		if (this.editorView) {
 			this.editorView.dispatch({
 				changes: {
@@ -640,7 +640,7 @@ globalThis.bytebeat = new class {
 		} else {
 			this.editorElem.value = code;
 		}
-		this.setSampleRate(this.controlSampleRate.value = +sampleRate || 8000, false);
+		this.setSampleRate(this.controlSampleRate.value = +sampleRate, false);
 		this.setSRDivisor(0);
 		const data = {
 			mode,
@@ -948,9 +948,7 @@ globalThis.bytebeat = new class {
 		if (!sampleRate || !isFinite(sampleRate) ||
 			// Float32 limit
 			(sampleRate = Number(parseFloat(Math.abs(sampleRate)).toFixed(0))) > 3.4028234663852886E+38
-		) {
-			sampleRate = 8000;
-		}
+		)
 		sampleRate = Math.max(1, sampleRate);
 		switch (sampleRate) {
 			case 8000:
