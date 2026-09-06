@@ -776,7 +776,7 @@ button[name="close"] {
 }
 
 #control-samplerate {
-	width: 132px;
+	width: 123px;
 	border-radius: var(--control-corners) 0 0 var(--control-corners);
 }
 

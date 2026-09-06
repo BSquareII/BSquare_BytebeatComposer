@@ -100,6 +100,9 @@ globalThis.bytebeat = new class {
 	clearCanvas() {
 		this.canvasCtx.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
 	}
+	copyCode() {
+		navigator.clipboard.writeText(this.editorValue)
+	}
 	copyLink() {
 		navigator.clipboard.writeText(window.location);
 	}
@@ -476,6 +479,7 @@ globalThis.bytebeat = new class {
 					case 'canvas-main':
 					case 'canvas-play':
 					case 'canvas-timecursor': this.playbackToggle(!this.isPlaying); break;
+					case 'control-code': this.copyCode(); break;
 					case 'control-counter':
 					case 'control-counter-units': this.toggleCounterUnits(); break;
 					case 'control-expand': this.expandEditor(); break;

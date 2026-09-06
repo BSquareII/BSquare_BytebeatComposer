@@ -466,6 +466,20 @@
                 "codeOriginal": "(((t*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>(-t>>20&1?8:11)))>>(3&-t>>(t&(-t&57344?4096:6144)?2:16))|(-t&24576?(t*3>>5)%192:(t>>4)%192)|(t>>20&1?t>>4:t>>(-t>>18&1)+2))&255)>>1)-(t>>18&1?((-t>>1)*(t&16384?7:5)>>(-t>>10&3)&t>>4&255)>>1:(-t>>2)*(t&16384?7:5)>>(-t>>10&3)&(t>>4&255)>>1)+(128&(int)(4e4/(1+(t&(-t&28672?4095:2047)))))+((t>>18&3)&&(-(t*(t^t%9)&255&-(t>>(t>>11&31?(-t&14336?5:4)-!(-t&28672)-!(-t&122880):6))<<2&255)>>2))+128"
             },
             {
+                "name": "C-compatible Chasing Moonlight chord progression",
+                "remix": {
+                    "author": "May_I_Change_My_Name",
+                    "name": "Chasing Moonlight",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1g01th7/chasing_moonlight_bytebattle_season_1_entry/"
+                },
+                "url": "https://www.reddit.com/r/bytebeat/comments/1iq1lkb/ccompatible_chasing_moonlight_chord_progression/",
+                "date": "Feb 15, 2025",
+                "sampleRate": 8000,
+                "mode": "Bytebeat",
+                "file": "PortablePorcelain.js",
+                "fileOriginal": true
+            },
+            {
                 "remix": {
                     "name": "the 42 melody",
                     "url": "https://viznut.fi/demos/unix/bytebeat_formulas.txt"
